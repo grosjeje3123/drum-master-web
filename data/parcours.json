@@ -1,0 +1,476 @@
+{
+	"etapes": [
+		{
+			"id": "e1",
+			"titre": "Premiers coups",
+			"resume": "La pulsation, les noires, les croches et les silences, à la caisse claire.",
+			"lecons": [
+				{
+					"id": "e1l1",
+					"titre": "Le temps et la noire",
+					"texte": [
+						"La musique avance sur une pulsation régulière : les temps. En batterie, on les compte presque toujours par quatre : 1, 2, 3, 4, puis on recommence. Ces quatre temps forment une mesure.",
+						"La noire dure un temps : un coup par temps, sur chaque clic du métronome.",
+						"Frappe au centre de la peau et laisse la baguette rebondir d'elle-même, sans l'écraser. Le mouvement part du poignet, le bras reste détendu.",
+						"Compte à voix haute pendant que tu joues : « 1, 2, 3, 4 ». C'est la meilleure habitude à prendre dès le début."
+					],
+					"exercices": [
+						{
+							"id": "e1l1a",
+							"titre": "Noires, main droite",
+							"consigne": "Un coup par temps, main droite seule.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"sn": "x.x.x.x."
+							},
+							"mains": "D.D.D.D.",
+							"tempo": [
+								60,
+								80,
+								4
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e1l1b",
+							"titre": "Noires, main gauche",
+							"consigne": "La même chose avec la main gauche : elle doit sonner comme la droite.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"sn": "x.x.x.x."
+							},
+							"mains": "G.G.G.G.",
+							"tempo": [
+								60,
+								80,
+								4
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e1l1c",
+							"titre": "Noires alternées",
+							"consigne": "Droite, gauche, droite, gauche : une main par temps.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"sn": "x.x.x.x."
+							},
+							"mains": "D.G.D.G.",
+							"tempo": [
+								60,
+								90,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						}
+					]
+				},
+				{
+					"id": "e1l2",
+					"titre": "Les croches",
+					"texte": [
+						"La croche dure un demi-temps : deux croches par temps. On les compte « 1 et 2 et 3 et 4 et » : le chiffre tombe sur le clic, le « et » au milieu.",
+						"On les joue en alternant les mains : droite sur les chiffres, gauche sur les « et ».",
+						"Les deux mains doivent frapper à la même hauteur et avec la même force. Écoute : les coups doivent être identiques."
+					],
+					"exercices": [
+						{
+							"id": "e1l2a",
+							"titre": "Croches alternées",
+							"consigne": "Huit coups par mesure, droite sur les temps, gauche sur les « et ».",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"sn": "xxxxxxxx"
+							},
+							"mains": "DGDGDGDG",
+							"tempo": [
+								60,
+								90,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e1l2b",
+							"titre": "Noires puis croches",
+							"consigne": "Une mesure de noires, une mesure de croches : le tempo ne bouge pas, seul le débit double.",
+							"pas": 2,
+							"mesures": 2,
+							"voix": {
+								"sn": "x.x.x.x.xxxxxxxx"
+							},
+							"mains": "D.D.D.D.DGDGDGDG",
+							"tempo": [
+								60,
+								90,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e1l2c",
+							"titre": "Croches, gauche en tête",
+							"consigne": "Même chose en commençant par la main gauche, pour équilibrer les deux mains.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"sn": "xxxxxxxx"
+							},
+							"mains": "GDGDGDGD",
+							"tempo": [
+								60,
+								85,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						}
+					]
+				},
+				{
+					"id": "e1l3",
+					"titre": "Les silences",
+					"texte": [
+						"Le silence se compte autant que la note. Le soupir vaut un temps sans jouer, le demi-soupir un demi-temps.",
+						"Pendant un silence, continue de compter à voix haute et garde le mouvement des mains en l'air, comme si tu jouais sans toucher la peau.",
+						"Le piège : se précipiter sur la note qui suit un silence. Attends bien le clic."
+					],
+					"exercices": [
+						{
+							"id": "e1l3a",
+							"titre": "Soupir sur le 4",
+							"consigne": "Trois noires puis un temps de silence.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"sn": "x.x.x..."
+							},
+							"mains": "D.G.D...",
+							"tempo": [
+								60,
+								90,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e1l3b",
+							"titre": "Croches et demi-soupirs",
+							"consigne": "Trois croches, un demi-soupir, trois croches, un demi-soupir.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"sn": "xxx.xxx."
+							},
+							"mains": "DGD.DGD.",
+							"tempo": [
+								60,
+								90,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e1l3c",
+							"titre": "Phrase de deux mesures",
+							"consigne": "Noires, croches et silences mêlés : compte bien pendant les trous.",
+							"pas": 2,
+							"mesures": 2,
+							"voix": {
+								"sn": "x.xxx.xxxxx.x..."
+							},
+							"mains": "D.DGD.DGDGD.D...",
+							"tempo": [
+								60,
+								85,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						}
+					]
+				}
+			],
+			"revision": {
+				"morceau": "Premier concert",
+				"difficulte": "facile"
+			}
+		},
+		{
+			"id": "e2",
+			"titre": "Premier rythme",
+			"resume": "Charleston, caisse claire et grosse caisse ensemble : un membre à la fois.",
+			"lecons": [
+				{
+					"id": "e2l1",
+					"titre": "La charleston en croches",
+					"texte": [
+						"La charleston donne le tempo du groove. Pied gauche appuyé sur la pédale pour garder les deux cymbales fermées, main droite qui joue les croches.",
+						"La main droite croise au-dessus de la gauche : la gauche reste prête au-dessus de la caisse claire.",
+						"Vise la régularité avant tout : huit croches identiques par mesure, en comptant « 1 et 2 et 3 et 4 et »."
+					],
+					"exercices": [
+						{
+							"id": "e2l1a",
+							"titre": "Croches à la charleston",
+							"consigne": "Main droite seule, croches régulières.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"hh": "xxxxxxxx"
+							},
+							"mains": "DDDDDDDD",
+							"tempo": [
+								60,
+								100,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e2l1b",
+							"titre": "Noires puis croches à la charleston",
+							"consigne": "Une mesure de noires, une mesure de croches.",
+							"pas": 2,
+							"mesures": 2,
+							"voix": {
+								"hh": "x.x.x.x.xxxxxxxx"
+							},
+							"mains": "D.D.D.D.DDDDDDDD",
+							"tempo": [
+								60,
+								100,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						}
+					]
+				},
+				{
+					"id": "e2l2",
+					"titre": "Ajouter la caisse claire",
+					"texte": [
+						"La caisse claire, jouée main gauche, tombe sur les temps 2 et 4. C'est le « contretemps » qui fait balancer presque toute la musique actuelle.",
+						"Sur 2 et 4, les deux mains frappent exactement ensemble : charleston et caisse claire ne doivent faire qu'un seul son."
+					],
+					"exercices": [
+						{
+							"id": "e2l2a",
+							"titre": "Charleston et caisse claire",
+							"consigne": "Croches à la charleston, caisse claire sur 2 et 4.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"hh": "xxxxxxxx",
+								"sn": "..x...x."
+							},
+							"mains": "",
+							"tempo": [
+								60,
+								100,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						}
+					]
+				},
+				{
+					"id": "e2l3",
+					"titre": "Ajouter la grosse caisse",
+					"texte": [
+						"Le pied droit joue la grosse caisse sur les temps 1 et 3. Talon levé ou posé, l'essentiel est que la batte reparte de la peau après le coup.",
+						"Travaille d'abord la grosse caisse avec la charleston seule. Quand c'est stable, ajoute la caisse claire : c'est ton premier groove complet."
+					],
+					"exercices": [
+						{
+							"id": "e2l3a",
+							"titre": "Charleston et grosse caisse",
+							"consigne": "Croches à la charleston, grosse caisse sur 1 et 3.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"hh": "xxxxxxxx",
+								"bd": "x...x..."
+							},
+							"mains": "",
+							"tempo": [
+								60,
+								100,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e2l3b",
+							"titre": "Le premier groove",
+							"consigne": "Charleston en croches, grosse caisse sur 1 et 3, caisse claire sur 2 et 4.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"hh": "xxxxxxxx",
+								"sn": "..x...x.",
+								"bd": "x...x..."
+							},
+							"mains": "",
+							"tempo": [
+								60,
+								100,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						}
+					]
+				},
+				{
+					"id": "e2l4",
+					"titre": "Variations de grosse caisse",
+					"texte": [
+						"En déplaçant la grosse caisse, on change le caractère du groove sans toucher aux mains.",
+						"La main droite reste parfaitement régulière : c'est elle qui sert de repère au pied. Chaque coup de grosse caisse tombe avec une croche de charleston."
+					],
+					"exercices": [
+						{
+							"id": "e2l4a",
+							"titre": "Grosse caisse sur « 3 et »",
+							"consigne": "Le coup en plus arrive juste après le 3.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"hh": "xxxxxxxx",
+								"sn": "..x...x.",
+								"bd": "x...xx.."
+							},
+							"mains": "",
+							"tempo": [
+								65,
+								105,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e2l4b",
+							"titre": "Grosse caisse sur « 1 et »",
+							"consigne": "Deux coups au début de la mesure.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"hh": "xxxxxxxx",
+								"sn": "..x...x.",
+								"bd": "xx..x..."
+							},
+							"mains": "",
+							"tempo": [
+								65,
+								105,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e2l4c",
+							"titre": "Les deux variations",
+							"consigne": "Une mesure de chaque, enchaînées.",
+							"pas": 2,
+							"mesures": 2,
+							"voix": {
+								"hh": "xxxxxxxxxxxxxxxx",
+								"sn": "..x...x...x...x.",
+								"bd": "x...xx..xx..x..."
+							},
+							"mains": "",
+							"tempo": [
+								65,
+								100,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						}
+					]
+				},
+				{
+					"id": "e2l5",
+					"titre": "La crash sur le 1",
+					"texte": [
+						"La crash marque le début d'une phrase, souvent après un fill. Elle se frappe main droite, en même temps que la grosse caisse, sur le premier temps.",
+						"Juste après, la main droite revient sur la charleston sans perdre une croche. Le geste : frapper la crash et repartir, sans attendre qu'elle s'arrête de sonner."
+					],
+					"exercices": [
+						{
+							"id": "e2l5a",
+							"titre": "Crash puis groove",
+							"consigne": "Crash et grosse caisse sur le 1, puis le groove reprend ; une mesure de groove normal derrière.",
+							"pas": 2,
+							"mesures": 2,
+							"voix": {
+								"cr": "x...............",
+								"hh": ".xxxxxxxxxxxxxxx",
+								"sn": "..x...x...x...x.",
+								"bd": "x...x...x...x..."
+							},
+							"mains": "",
+							"tempo": [
+								65,
+								100,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						}
+					]
+				}
+			],
+			"revision": {
+				"morceau": "Premier concert",
+				"difficulte": "moyen"
+			}
+		},
+		{
+			"id": "e3",
+			"titre": "Premiers breaks",
+			"resume": "Fills en croches de la caisse claire vers les toms, et retour dans le temps.",
+			"lecons": [],
+			"bientot": true
+		},
+		{
+			"id": "e4",
+			"titre": "Doubles croches",
+			"resume": "Coups simples, doubles, paradiddle ; charleston en doubles, fills en doubles.",
+			"lecons": [],
+			"bientot": true
+		},
+		{
+			"id": "e5",
+			"titre": "Triolets et shuffle",
+			"resume": "Compter les triolets, le shuffle, la ballade en 12/8.",
+			"lecons": [],
+			"bientot": true
+		},
+		{
+			"id": "e6",
+			"titre": "Nuances et indépendance",
+			"resume": "Accents, notes fantômes, charleston au pied, ride et pied gauche, grosse caisse syncopée.",
+			"lecons": [],
+			"bientot": true
+		}
+	]
+}
