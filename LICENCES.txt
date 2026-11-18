@@ -1,9 +1,9 @@
 Drum Master : composants tiers
 
-alphaTab 1.9 (lecture des fichiers Guitar Pro, MusicXML et Capella)
+alphaTab 1.9.0 (lecture des fichiers Guitar Pro, MusicXML et Capella)
   Licence Mozilla Public License 2.0 : https://www.mozilla.org/MPL/2.0/
-  Code source : https://github.com/CoderLine/alphaTab
-  Utilisé sans modification.
+  Code source de la version utilisée : https://github.com/CoderLine/alphaTab/tree/v1.9.0
+  Paquet npm : @coderline/alphatab 1.9.0, utilisé sans modification.
 
 Archivo (police)
   SIL Open Font License 1.1, voir fonts/OFL-Archivo.txt
