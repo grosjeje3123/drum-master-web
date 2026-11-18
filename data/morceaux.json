@@ -1,0 +1,573 @@
+{
+	"morceaux": [
+		{
+			"nom": "Premier concert",
+			"style": "Rock",
+			"niveau": 1,
+			"tempo": 92,
+			"pas": 2,
+			"texte": "Rock droit : charleston au couplet, ride et pied gauche au refrain, deux breaks aux toms.",
+			"motifs": {
+				"depart": {
+					"cr": "x.......",
+					"hh": ".xxxxxxx",
+					"sn": "..x...x.",
+					"bd": "x...x..."
+				},
+				"couplet": {
+					"hh": "xxxxxxxx",
+					"sn": "..x...x.",
+					"bd": "x...x..."
+				},
+				"couplet_b": {
+					"hh": "xxxxxxxo",
+					"sn": "..x...x.",
+					"bd": "x...xx.."
+				},
+				"refrain": {
+					"cr": "x.......",
+					"rd": ".xxxxxxx",
+					"sn": "..x...x.",
+					"bd": "x...xx..",
+					"hp": "..x...x."
+				},
+				"refrain_b": {
+					"rd": "xxxxxxxx",
+					"sn": "..x...x.",
+					"bd": "x...xx..",
+					"hp": "..x...x."
+				},
+				"fill": {
+					"hh": "xxxx....",
+					"sn": "..x.xx..",
+					"t1": "......x.",
+					"t3": ".......x",
+					"bd": "x......."
+				},
+				"fill_toms": {
+					"sn": "xx......",
+					"t1": "..xx....",
+					"t2": "....xx..",
+					"t3": "......xx",
+					"bd": "x......."
+				},
+				"fin": {
+					"cr": "x.......",
+					"bd": "x......."
+				}
+			},
+			"plan": [
+				"depart",
+				"couplet",
+				"couplet",
+				"couplet_b",
+				"couplet",
+				"couplet",
+				"couplet_b",
+				"fill",
+				"refrain",
+				"refrain_b",
+				"refrain_b",
+				"fill",
+				"refrain",
+				"refrain_b",
+				"fill_toms",
+				"fin"
+			]
+		},
+		{
+			"nom": "Pop des toits",
+			"style": "Pop",
+			"niveau": 2,
+			"tempo": 104,
+			"pas": 4,
+			"texte": "Couplet en noires, refrain à la charleston ouverte, passage au tom basse, pont à la ride.",
+			"motifs": {
+				"depart": {
+					"cr": "x...............",
+					"hh": "....x...x...x...",
+					"sn": "....x.......x...",
+					"bd": "x.......x......."
+				},
+				"couplet": {
+					"hh": "x...x...x...x...",
+					"sn": "....x.......x...",
+					"bd": "x.......x......."
+				},
+				"pre": {
+					"hh": "x.x.x.x.x.x.x.x.",
+					"sn": "....x.......x...",
+					"bd": "x..x....x.x....."
+				},
+				"refrain": {
+					"cr": "x...............",
+					"hh": "..o.x.o.x.o.x.o.",
+					"sn": "....x.......x...",
+					"bd": "x..x....x.x....."
+				},
+				"refrain_b": {
+					"hh": "x.o.x.o.x.o.x.o.",
+					"sn": "....x.......x...",
+					"bd": "x..x....x.x....."
+				},
+				"toms": {
+					"t3": "x.x.x.x.x.x.x.x.",
+					"sn": "....x.......x...",
+					"bd": "x.......x.x....."
+				},
+				"toms_b": {
+					"t3": "x.x.x.x.x.x.....",
+					"sn": "....x.......x...",
+					"t1": "..............xx",
+					"bd": "x.......x......."
+				},
+				"pont": {
+					"cr": "x...............",
+					"rd": "..x.x.x.x.x.x.x.",
+					"sn": "....x.......x...",
+					"bd": "x.......x.x.....",
+					"hp": "..x...x...x...x."
+				},
+				"pont_b": {
+					"rd": "x.x.x.x.x.x.x.x.",
+					"sn": "....x.......x...",
+					"bd": "x.......x.x.....",
+					"hp": "..x...x...x...x."
+				},
+				"fill": {
+					"sn": "x.x.x.x.xxxx....",
+					"t1": "............xx..",
+					"t2": "..............x.",
+					"t3": "...............x",
+					"bd": "x..............."
+				},
+				"fin": {
+					"cr": "x...............",
+					"bd": "x..............."
+				}
+			},
+			"plan": [
+				"depart",
+				"couplet",
+				"couplet",
+				"pre",
+				"refrain",
+				"refrain_b",
+				"refrain_b",
+				"fill",
+				"toms",
+				"toms",
+				"toms_b",
+				"fill",
+				"pont",
+				"pont_b",
+				"fill",
+				"fin"
+			]
+		},
+		{
+			"nom": "Disco de minuit",
+			"style": "Disco",
+			"niveau": 2,
+			"tempo": 112,
+			"pas": 2,
+			"texte": "Grosse caisse sur tous les temps, charleston qui s'ouvre à contretemps, break au pied gauche.",
+			"motifs": {
+				"depart": {
+					"cr": "x.......",
+					"hh": ".oxoxoxo",
+					"sn": "..x...x.",
+					"bd": "x.x.x.x."
+				},
+				"groove": {
+					"hh": "xoxoxoxo",
+					"sn": "..x...x.",
+					"bd": "x.x.x.x."
+				},
+				"pont": {
+					"rd": "xxxxxxxx",
+					"sn": "..x...x.",
+					"bd": "x.x.x.x.",
+					"hp": ".x.x.x.x"
+				},
+				"break": {
+					"hp": "x.x.x.x.",
+					"sn": "..a...a.",
+					"bd": "x.....x."
+				},
+				"fill": {
+					"hh": "xoxo....",
+					"sn": "....xx..",
+					"t2": "......x.",
+					"t3": ".......x",
+					"bd": "x.x....."
+				},
+				"fill_toms": {
+					"t1": "xx......",
+					"t2": "..xx....",
+					"t3": "....xx..",
+					"sn": "......aa",
+					"bd": "x...x..."
+				},
+				"fin": {
+					"cr": "x.......",
+					"bd": "x......."
+				}
+			},
+			"plan": [
+				"depart",
+				"groove",
+				"groove",
+				"fill",
+				"depart",
+				"groove",
+				"groove",
+				"fill_toms",
+				"pont",
+				"pont",
+				"pont",
+				"fill",
+				"break",
+				"break",
+				"fill_toms",
+				"fin"
+			]
+		},
+		{
+			"nom": "Balade du soir",
+			"style": "Ballade",
+			"niveau": 2,
+			"tempo": 70,
+			"pas": 4,
+			"texte": "Lent et posé : une note fantôme au couplet, accents et ride au refrain, fill en doubles.",
+			"motifs": {
+				"depart": {
+					"cr": "x...............",
+					"hh": "..x.x.x.x.x.x.x.",
+					"sn": "....x.......x...",
+					"bd": "x.......x......."
+				},
+				"couplet": {
+					"hh": "x.x.x.x.x.x.x.x.",
+					"sn": "....x.......x...",
+					"bd": "x.......x.x....."
+				},
+				"couplet_g": {
+					"hh": "x.x.x.x.x.x.x.x.",
+					"sn": "....x..g....x...",
+					"bd": "x.......x.x....."
+				},
+				"refrain": {
+					"cr": "x...............",
+					"rd": "..x.x.x.x.x.x.x.",
+					"sn": "....a.......a...",
+					"bd": "x.....x.x.......",
+					"hp": "....x.......x..."
+				},
+				"refrain_b": {
+					"rd": "x.x.x.x.x.x.x.x.",
+					"sn": "....a.......a...",
+					"bd": "x.....x.x.......",
+					"hp": "....x.......x..."
+				},
+				"fill": {
+					"hh": "x.x.x.x.........",
+					"sn": "....x...xxxx....",
+					"t1": "............xx..",
+					"t3": "..............xx",
+					"bd": "x..............."
+				},
+				"fin": {
+					"cr": "x...............",
+					"bd": "x..............."
+				}
+			},
+			"plan": [
+				"depart",
+				"couplet",
+				"couplet",
+				"couplet_g",
+				"couplet",
+				"couplet",
+				"couplet_g",
+				"fill",
+				"refrain",
+				"refrain_b",
+				"refrain_b",
+				"fill",
+				"refrain",
+				"refrain_b",
+				"refrain_b",
+				"fin"
+			]
+		},
+		{
+			"nom": "Shuffle de la gare",
+			"style": "Shuffle",
+			"niveau": 3,
+			"tempo": 92,
+			"pas": 3,
+			"texte": "Shuffle en triolets à la charleston, puis à la ride avec le pied gauche, fills en triolets.",
+			"motifs": {
+				"depart": {
+					"cr": "x...........",
+					"hh": "..xx.xx.xx.x",
+					"sn": "...x.....x..",
+					"bd": "x.....x....."
+				},
+				"shuffle": {
+					"hh": "x.xx.xx.xx.x",
+					"sn": "...x.....x..",
+					"bd": "x.....x....."
+				},
+				"shuffle_b": {
+					"hh": "x.xx.xx.xx.x",
+					"sn": "...x.....x.g",
+					"bd": "x....xx....."
+				},
+				"ride_c": {
+					"cr": "x...........",
+					"rd": "..xx.xx.xx.x",
+					"sn": "...x.....x..",
+					"bd": "x.....x.....",
+					"hp": "...x.....x.."
+				},
+				"ride": {
+					"rd": "x.xx.xx.xx.x",
+					"sn": "...x.....x..",
+					"bd": "x.....x.....",
+					"hp": "...x.....x.."
+				},
+				"fill": {
+					"hh": "x.xx.x......",
+					"sn": "......xxx...",
+					"t1": ".........xx.",
+					"t3": "...........x",
+					"bd": "x..........."
+				},
+				"fill_toms": {
+					"sn": "xxx.........",
+					"t1": "...xxx......",
+					"t2": "......xxx...",
+					"t3": ".........xxx"
+				},
+				"fin": {
+					"cr": "x...........",
+					"bd": "x..........."
+				}
+			},
+			"plan": [
+				"depart",
+				"shuffle",
+				"shuffle",
+				"shuffle_b",
+				"shuffle",
+				"shuffle",
+				"shuffle_b",
+				"fill",
+				"ride_c",
+				"ride",
+				"ride",
+				"fill",
+				"ride_c",
+				"ride",
+				"fill_toms",
+				"fin"
+			]
+		},
+		{
+			"nom": "Un seul coup",
+			"style": "Reggae",
+			"niveau": 3,
+			"tempo": 74,
+			"pas": 3,
+			"texte": "One drop : grosse caisse et caisse claire ensemble sur le 3, passage steppers, ride au pont.",
+			"motifs": {
+				"depart": {
+					"cr": "x...........",
+					"hh": "..xx.xx.xx.x",
+					"sn": "......x.....",
+					"bd": "......x....."
+				},
+				"drop": {
+					"hh": "x.xx.xx.xx.x",
+					"sn": "......x.....",
+					"bd": "......x....."
+				},
+				"drop_g": {
+					"hh": "x.xx.xx.xx.o",
+					"sn": "...g..x....g",
+					"bd": "......x....."
+				},
+				"steppers": {
+					"hh": "x.xx.xx.xx.x",
+					"sn": "......x.....",
+					"bd": "x..x..x..x.."
+				},
+				"ride": {
+					"rd": "x.xx.xx.xx.x",
+					"sn": "......x.....",
+					"bd": "......x.....",
+					"hp": "...x.....x.."
+				},
+				"fill": {
+					"sn": "x.x.x.......",
+					"t1": "......x.x...",
+					"t3": ".........x.x"
+				},
+				"fin": {
+					"cr": "x...........",
+					"bd": "x..........."
+				}
+			},
+			"plan": [
+				"depart",
+				"drop",
+				"drop",
+				"drop_g",
+				"drop",
+				"drop",
+				"drop_g",
+				"fill",
+				"steppers",
+				"steppers",
+				"ride",
+				"fill",
+				"depart",
+				"drop",
+				"drop_g",
+				"fin"
+			]
+		},
+		{
+			"nom": "Funk du dimanche",
+			"style": "Funk",
+			"niveau": 4,
+			"tempo": 90,
+			"pas": 4,
+			"texte": "Accents à la charleston, notes fantômes, grosse caisse syncopée, pont à la ride avec le pied gauche.",
+			"motifs": {
+				"depart": {
+					"cr": "x...............",
+					"hh": "..x.a.x.a.x.a.x.",
+					"sn": "....a..g.g..a..g",
+					"bd": "x.x.......x..x.."
+				},
+				"groove": {
+					"hh": "a.x.a.x.a.x.a.x.",
+					"sn": "....a..g.g..a..g",
+					"bd": "x.x.......x..x.."
+				},
+				"groove_o": {
+					"hh": "a.x.a.x.a.x.a.o.",
+					"sn": "....a..g.g..a...",
+					"bd": "x.x.......x....."
+				},
+				"doubles": {
+					"hh": "axxxaxxxaxxxaxxx",
+					"sn": "....a.......a...",
+					"bd": "x..x..x...x....."
+				},
+				"pont": {
+					"rd": "x.x.x.x.x.x.x.x.",
+					"sn": "....a..g....a..g",
+					"bd": "x.....x...x.....",
+					"hp": "..x...x...x...x."
+				},
+				"fill": {
+					"hh": "a.x.a.x.........",
+					"sn": "........a.ga....",
+					"t1": "............xx..",
+					"t2": "..............x.",
+					"t3": "...............x",
+					"bd": "x.x............."
+				},
+				"fin": {
+					"cr": "x...............",
+					"bd": "x..............."
+				}
+			},
+			"plan": [
+				"depart",
+				"groove",
+				"groove",
+				"groove_o",
+				"groove",
+				"groove",
+				"doubles",
+				"fill",
+				"pont",
+				"pont",
+				"pont",
+				"fill",
+				"depart",
+				"doubles",
+				"groove_o",
+				"fin"
+			]
+		},
+		{
+			"nom": "Jazz au sous-sol",
+			"style": "Jazz",
+			"niveau": 4,
+			"tempo": 126,
+			"pas": 3,
+			"texte": "Ride swing et pied gauche sur 2 et 4, caisse claire qui commente, échanges aux toms.",
+			"motifs": {
+				"depart": {
+					"cr": "x...........",
+					"rd": "...x.xx..x.x",
+					"hp": "...x.....x..",
+					"bd": "x.....x....."
+				},
+				"swing": {
+					"rd": "x..x.xx..x.x",
+					"hp": "...x.....x..",
+					"bd": "x.....x.....",
+					"sn": ".....g.....g"
+				},
+				"comp": {
+					"rd": "x..x.xx..x.x",
+					"hp": "...x.....x..",
+					"bd": "x.....x.....",
+					"sn": "..a.....a..."
+				},
+				"trading": {
+					"sn": "x.xx.xx.x...",
+					"t1": ".........x..",
+					"t3": "..........xx",
+					"bd": "x..........."
+				},
+				"trading_b": {
+					"t1": "x.x.........",
+					"t2": "...x.x......",
+					"t3": "......x.x...",
+					"sn": ".........aaa",
+					"bd": "x.....x....."
+				},
+				"fin": {
+					"cr": "x...........",
+					"bd": "x..........."
+				}
+			},
+			"plan": [
+				"depart",
+				"swing",
+				"swing",
+				"comp",
+				"swing",
+				"swing",
+				"comp",
+				"trading",
+				"depart",
+				"swing",
+				"comp",
+				"trading_b",
+				"swing",
+				"comp",
+				"trading",
+				"fin"
+			]
+		}
+	]
+}
