@@ -10,4 +10,4 @@ Fonctionne au clavier, à l'écran tactile ou avec une batterie électronique br
 Une fois chargée, l'appli reste utilisable hors connexion.
 
 Sons : kit Gretsch enregistré par bigjoedrummer et shpira, licence CC0 (voir `sons/CREDITS.txt`).
-Police : DM Sans, licence SIL OFL (voir `fonts/OFL-DMSans.txt`).
+Police : Archivo, licence SIL OFL (voir `fonts/OFL-Archivo.txt`).
