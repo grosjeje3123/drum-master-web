@@ -1,5 +1,13 @@
-# Drum Master, version web d'essai
+# Drum Master — version web
 
-Version navigateur de Drum Master, produite par la CI du dépôt privé drum-master.
+Méthode de batterie interactive : théorie, stick control, grooves sur tout le kit, Drum Hero, coach de tempo.
 
-Adresse : https://grosjeje3123.github.io/drum-master-web/
+- Appli : https://grosjeje3123.github.io/drum-master-web/
+- Archive de l'ancienne version Godot : `godot/`
+- Page de test de précision audio : `proto/`
+
+Fonctionne au clavier, à l'écran tactile ou avec une batterie électronique branchée en MIDI (Chrome, Edge, Android).
+Une fois chargée, l'appli reste utilisable hors connexion.
+
+Sons : kit Gretsch enregistré par bigjoedrummer et shpira, licence CC0 (voir `sons/CREDITS.txt`).
+Police : DM Sans, licence SIL OFL (voir `fonts/OFL-DMSans.txt`).

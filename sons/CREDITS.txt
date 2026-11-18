@@ -1,0 +1,8 @@
+Sons de batterie acoustique (Gretsch Catalina Maple, caisse claire Premier Artist Maple, cymbales Zildjian)
+Licence : Creative Commons 0 (domaine public).
+
+- « Gretsch drums » par bigjoedrummer : https://freesound.org/people/bigjoedrummer/packs/4724/
+- « Jazz Gretsch Big Cymbals » par shpira : https://freesound.org/people/shpira/packs/17760/
+
+Récupérés via le kit « Jazzkit » de drum_sklad (https://github.com/psemiletov/drum_sklad),
+puis découpés, raccourcis et convertis en PCM 16 bits mono 44,1 kHz (fichiers .pcm, sans en-tête).

@@ -1,0 +1,423 @@
+{
+ "grooves": [
+  {
+   "style": "Premiers pas",
+   "nom": "Le premier groove",
+   "niveau": 1,
+   "tempo": 70,
+   "pas": 2,
+   "mesures": 1,
+   "texte": "Charleston sur les temps, caisse claire sur 2 et 4, grosse caisse sur 1 et 3.",
+   "voix": {
+    "hh": "x.x.x.x.",
+    "sn": "..x...x.",
+    "bd": "x...x..."
+   }
+  },
+  {
+   "style": "Premiers pas",
+   "nom": "Croches à la charleston",
+   "niveau": 1,
+   "tempo": 70,
+   "pas": 2,
+   "mesures": 1,
+   "texte": "La main droite passe en croches : la base de presque tous les morceaux.",
+   "voix": {
+    "hh": "xxxxxxxx",
+    "sn": "..x...x.",
+    "bd": "x...x..."
+   }
+  },
+  {
+   "style": "Premiers pas",
+   "nom": "Charleston et grosse caisse seules",
+   "niveau": 1,
+   "tempo": 70,
+   "pas": 2,
+   "mesures": 1,
+   "texte": "Pour sentir les deux pieds et la main droite avant d'ajouter la caisse claire.",
+   "voix": {
+    "hh": "xxxxxxxx",
+    "bd": "x...x..."
+   }
+  },
+  {
+   "style": "Rock",
+   "nom": "Grosse caisse sur 3-et",
+   "niveau": 1,
+   "tempo": 80,
+   "pas": 2,
+   "mesures": 1,
+   "texte": "Une grosse caisse de plus juste après le 3.",
+   "voix": {
+    "hh": "xxxxxxxx",
+    "sn": "..x...x.",
+    "bd": "x...xx.."
+   }
+  },
+  {
+   "style": "Rock",
+   "nom": "Grosse caisse sur 1-et",
+   "niveau": 1,
+   "tempo": 80,
+   "pas": 2,
+   "mesures": 1,
+   "texte": "La deuxième grosse caisse arrive juste après le 1.",
+   "voix": {
+    "hh": "xxxxxxxx",
+    "sn": "..x...x.",
+    "bd": "xx..x..."
+   }
+  },
+  {
+   "style": "Rock",
+   "nom": "Grosse caisse sur 2-et",
+   "niveau": 2,
+   "tempo": 80,
+   "pas": 2,
+   "mesures": 1,
+   "texte": "La grosse caisse tombe entre deux caisses claires : ne la laisse pas glisser.",
+   "voix": {
+    "hh": "xxxxxxxx",
+    "sn": "..x...x.",
+    "bd": "x..xx..."
+   }
+  },
+  {
+   "style": "Rock",
+   "nom": "Crash sur le 1",
+   "niveau": 2,
+   "tempo": 80,
+   "pas": 2,
+   "mesures": 1,
+   "texte": "La crash remplace la charleston sur le premier temps, avec la grosse caisse.",
+   "voix": {
+    "cr": "x.......",
+    "hh": ".xxxxxxx",
+    "sn": "..x...x.",
+    "bd": "x...x..."
+   }
+  },
+  {
+   "style": "Rock",
+   "nom": "Charleston ouverte sur 4-et",
+   "niveau": 2,
+   "tempo": 80,
+   "pas": 2,
+   "mesures": 1,
+   "texte": "Ouvre la charleston sur la dernière croche, referme-la sur le 1.",
+   "voix": {
+    "hh": "xxxxxxxo",
+    "sn": "..x...x.",
+    "bd": "x...xx.."
+   }
+  },
+  {
+   "style": "Rock",
+   "nom": "Tom basse en croches",
+   "niveau": 2,
+   "tempo": 80,
+   "pas": 2,
+   "mesures": 1,
+   "texte": "La main droite quitte la charleston pour le tom basse : un son plus sourd.",
+   "voix": {
+    "t3": "xxxxxxxx",
+    "sn": "..x...x.",
+    "bd": "x...x..."
+   }
+  },
+  {
+   "style": "Doubles et pop",
+   "nom": "Doubles à la charleston",
+   "niveau": 2,
+   "tempo": 65,
+   "pas": 4,
+   "mesures": 1,
+   "texte": "La main droite en doubles croches : garde-les régulières quand la caisse claire tombe.",
+   "voix": {
+    "hh": "xxxxxxxxxxxxxxxx",
+    "sn": "....x.......x...",
+    "bd": "x.......x......."
+   }
+  },
+  {
+   "style": "Doubles et pop",
+   "nom": "Doubles, grosse caisse sur 2-et",
+   "niveau": 2,
+   "tempo": 65,
+   "pas": 4,
+   "mesures": 1,
+   "texte": "Une grosse caisse au milieu du 2, entre les doubles de la charleston.",
+   "voix": {
+    "hh": "xxxxxxxxxxxxxxxx",
+    "sn": "....x.......x...",
+    "bd": "x.....x.x......."
+   }
+  },
+  {
+   "style": "Doubles et pop",
+   "nom": "Pop syncopée",
+   "niveau": 2,
+   "tempo": 85,
+   "pas": 4,
+   "mesures": 1,
+   "texte": "Charleston en croches, grosse caisse décalée sur la dernière double du 1.",
+   "voix": {
+    "hh": "x.x.x.x.x.x.x.x.",
+    "sn": "....x.......x...",
+    "bd": "x..x....x.x....."
+   }
+  },
+  {
+   "style": "Doubles et pop",
+   "nom": "Grosse caisse en doubles",
+   "niveau": 3,
+   "tempo": 75,
+   "pas": 4,
+   "mesures": 1,
+   "texte": "Deux grosses caisses collées sur le 1 et sur le 3.",
+   "voix": {
+    "hh": "x.x.x.x.x.x.x.x.",
+    "sn": "....x.......x...",
+    "bd": "xx......xx......"
+   }
+  },
+  {
+   "style": "Doubles et pop",
+   "nom": "Accents à la charleston",
+   "niveau": 3,
+   "tempo": 70,
+   "pas": 4,
+   "mesures": 1,
+   "texte": "Doubles croches à la charleston, plus fortes sur chaque temps.",
+   "voix": {
+    "hh": "axxxaxxxaxxxaxxx",
+    "sn": "....x.......x...",
+    "bd": "x.......x.x....."
+   }
+  },
+  {
+   "style": "Doubles et pop",
+   "nom": "Disco",
+   "niveau": 2,
+   "tempo": 100,
+   "pas": 2,
+   "mesures": 1,
+   "texte": "Grosse caisse sur tous les temps, charleston ouverte entre les temps.",
+   "voix": {
+    "hh": "xoxoxoxo",
+    "sn": "..x...x.",
+    "bd": "x.x.x.x."
+   }
+  },
+  {
+   "style": "Doubles et pop",
+   "nom": "Charleston à contretemps",
+   "niveau": 2,
+   "tempo": 100,
+   "pas": 2,
+   "mesures": 1,
+   "texte": "La charleston joue seulement entre les temps, la grosse caisse sur les temps.",
+   "voix": {
+    "hh": ".x.x.x.x",
+    "sn": "..x...x.",
+    "bd": "x.x.x.x."
+   }
+  },
+  {
+   "style": "Ride et pied gauche",
+   "nom": "Groove à la ride",
+   "niveau": 2,
+   "tempo": 80,
+   "pas": 2,
+   "mesures": 1,
+   "texte": "Le même groove de base, main droite sur la ride.",
+   "voix": {
+    "rd": "xxxxxxxx",
+    "sn": "..x...x.",
+    "bd": "x...xx.."
+   }
+  },
+  {
+   "style": "Ride et pied gauche",
+   "nom": "Ride et charleston au pied",
+   "niveau": 3,
+   "tempo": 80,
+   "pas": 2,
+   "mesures": 1,
+   "texte": "Le pied gauche ferme la charleston sur 2 et 4, avec la caisse claire.",
+   "voix": {
+    "rd": "xxxxxxxx",
+    "sn": "..x...x.",
+    "bd": "x...x...",
+    "hp": "..x...x."
+   }
+  },
+  {
+   "style": "Ride et pied gauche",
+   "nom": "Charleston au pied en noires",
+   "niveau": 3,
+   "tempo": 75,
+   "pas": 2,
+   "mesures": 1,
+   "texte": "Le pied gauche marque chaque temps pendant que la main droite joue la ride.",
+   "voix": {
+    "rd": "xxxxxxxx",
+    "sn": "..x...x.",
+    "bd": "x...xx..",
+    "hp": "x.x.x.x."
+   }
+  },
+  {
+   "style": "Funk",
+   "nom": "Première note fantôme",
+   "niveau": 3,
+   "tempo": 70,
+   "pas": 4,
+   "mesures": 1,
+   "texte": "Une note fantôme très légère juste avant le 3 : à peine audible.",
+   "voix": {
+    "hh": "x.x.x.x.x.x.x.x.",
+    "sn": "....a..g....a...",
+    "bd": "x.....x.x......."
+   }
+  },
+  {
+   "style": "Funk",
+   "nom": "Notes fantômes",
+   "niveau": 3,
+   "tempo": 70,
+   "pas": 4,
+   "mesures": 1,
+   "texte": "Les accents sur 2 et 4, les notes fantômes entre les deux.",
+   "voix": {
+    "hh": "x.x.x.x.x.x.x.x.",
+    "sn": "....a.g..g..a...",
+    "bd": "x.x.......x....."
+   }
+  },
+  {
+   "style": "Funk",
+   "nom": "Funk en doubles",
+   "niveau": 4,
+   "tempo": 65,
+   "pas": 4,
+   "mesures": 1,
+   "texte": "Charleston en doubles, caisse claire accentuée et notes fantômes.",
+   "voix": {
+    "hh": "xxxxxxxxxxxxxxxx",
+    "sn": "....a..g.g..a..g",
+    "bd": "x..x..x...x....."
+   }
+  },
+  {
+   "style": "Shuffle et triolets",
+   "nom": "Ballade en triolets",
+   "niveau": 2,
+   "tempo": 60,
+   "pas": 3,
+   "mesures": 1,
+   "texte": "Trois notes par temps à la charleston : la sensation d'une mesure en 12/8.",
+   "voix": {
+    "hh": "xxxxxxxxxxxx",
+    "sn": "...x.....x..",
+    "bd": "x.....x....."
+   }
+  },
+  {
+   "style": "Shuffle et triolets",
+   "nom": "Shuffle",
+   "niveau": 3,
+   "tempo": 90,
+   "pas": 3,
+   "mesures": 1,
+   "texte": "La première et la troisième note du triolet : longue, courte.",
+   "voix": {
+    "hh": "x.xx.xx.xx.x",
+    "sn": "...x.....x..",
+    "bd": "x.....x....."
+   }
+  },
+  {
+   "style": "Shuffle et triolets",
+   "nom": "Shuffle à la ride",
+   "niveau": 3,
+   "tempo": 90,
+   "pas": 3,
+   "mesures": 1,
+   "texte": "Le shuffle sur la ride, avec une grosse caisse en plus avant le 3.",
+   "voix": {
+    "rd": "x.xx.xx.xx.x",
+    "sn": "...x.....x..",
+    "bd": "x....xx....."
+   }
+  },
+  {
+   "style": "Fills",
+   "nom": "Fill sur le 4",
+   "niveau": 2,
+   "tempo": 75,
+   "pas": 4,
+   "mesures": 2,
+   "texte": "Une mesure et demie de groove, puis quatre doubles à la caisse claire. Crash au retour.",
+   "voix": {
+    "cr": "x...............................",
+    "hh": "..x.x.x.x.x.x.x.x.x.x.x.x.x.....",
+    "sn": "....x.......x.......x.......xxxx",
+    "bd": "x.......x.......x.......x......."
+   }
+  },
+  {
+   "style": "Fills",
+   "nom": "Fill caisse claire et toms",
+   "niveau": 3,
+   "tempo": 75,
+   "pas": 4,
+   "mesures": 2,
+   "texte": "Le fill descend : caisse claire, tom 1, tom basse.",
+   "voix": {
+    "cr": "x...............................",
+    "hh": "..x.x.x.x.x.x.x.x.x.x.x.x.x.....",
+    "sn": "....x.......x.......x.......xx..",
+    "t1": "..............................x.",
+    "t3": "...............................x",
+    "bd": "x.......x.......x.......x......."
+   }
+  },
+  {
+   "style": "Fills",
+   "nom": "Fill sur deux temps",
+   "niveau": 3,
+   "tempo": 70,
+   "pas": 4,
+   "mesures": 2,
+   "texte": "Deux temps de doubles qui descendent sur les toms.",
+   "voix": {
+    "cr": "x...............................",
+    "hh": "..x.x.x.x.x.x.x.x.x.x.x.........",
+    "sn": "....x.......x.......x...xxxx....",
+    "t1": "............................xx..",
+    "t3": "..............................xx",
+    "bd": "x.......x.......x..............."
+   }
+  },
+  {
+   "style": "Fills",
+   "nom": "Fill en croches sur les toms",
+   "niveau": 2,
+   "tempo": 80,
+   "pas": 2,
+   "mesures": 2,
+   "texte": "Caisse claire, tom 1, tom 2, tom basse sur les temps 3 et 4.",
+   "voix": {
+    "cr": "x...............",
+    "hh": ".xxxxxxxxxxx....",
+    "sn": "..x...x...x.x...",
+    "t1": ".............x..",
+    "t2": "..............x.",
+    "t3": "...............x",
+    "bd": "x...x...x......."
+   }
+  }
+ ]
+}

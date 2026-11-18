@@ -1,0 +1,251 @@
+{
+  "chapitres": [
+    {
+      "titre": "La batterie",
+      "pages": [
+        {
+          "titre": "Les éléments",
+          "figure": "kit",
+          "mise_en_page": "cote",
+          "texte": [
+            "Une batterie réunit des fûts, que l'on frappe sur une peau, et des cymbales en métal. On en joue avec les quatre membres.",
+            "La disposition montrée est celle d'un droitier, vue de dessus, batteur assis en bas."
+          ]
+        },
+        {
+          "titre": "Sur la portée",
+          "figure": "portee",
+          "mise_en_page": "pile",
+          "texte": [
+            "Chaque élément a sa place sur la portée. Les fûts s'écrivent avec des têtes de note rondes, les cymbales avec des croix. Plus l'élément est grave, plus il est écrit bas.",
+            "Ces positions suivent l'usage le plus courant. Certaines méthodes en changent quelques-unes, et le précisent alors en légende."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Tenir les baguettes",
+      "pages": [
+        {
+          "titre": "Le pivot",
+          "figure": "baguette",
+          "mise_en_page": "pile",
+          "texte": [
+            "La baguette se tient entre la pulpe du pouce et l'index, à peu près au tiers de sa longueur en partant du talon. C'est le pivot : la baguette y bascule comme une balançoire.",
+            "Les trois autres doigts entourent la baguette sans la serrer. Ils l'accompagnent et la relancent."
+          ]
+        },
+        {
+          "titre": "L'orientation de la main",
+          "texte": [
+            "Les deux mains tiennent la baguette de la même façon : c'est la prise symétrique, celle par laquelle on commence. Seule change l'orientation de la main."
+          ],
+          "points": [
+            "Paume vers le sol : la prise la plus puissante, portée par le poignet.",
+            "Pouce sur le dessus : plus de finesse, les doigts travaillent davantage.",
+            "Entre les deux, main tournée d'environ 45 degrés : la position la plus courante."
+          ]
+        },
+        {
+          "titre": "Le rebond",
+          "texte": [
+            "Une peau tendue renvoie la baguette. Le geste consiste à lancer la baguette, puis à la laisser remonter d'elle-même, sans la retenir ni l'écraser.",
+            "Un essai : laisse tomber la baguette sur un pad depuis vingt centimètres, pivot tenu, doigts ouverts, et compte les rebonds. Plus ils sont nombreux, plus ta prise est détendue."
+          ]
+        },
+        {
+          "titre": "Les erreurs fréquentes",
+          "points": [
+            "Serrer la baguette : le son se ferme et le poignet se fatigue.",
+            "Tenir trop près du talon ou trop près de l'olive : le rebond disparaît.",
+            "Lever les épaules ou écarter les coudes.",
+            "Enfoncer la baguette dans la peau au lieu de la laisser repartir."
+          ],
+          "apres": [
+            "Une application ne voit pas ta main. Un miroir, une vidéo de toi ou le regard d'un professeur restent les meilleurs juges du geste."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "S'installer",
+      "pages": [
+        {
+          "titre": "Le siège",
+          "texte": [
+            "Tout part du siège. Règle sa hauteur pour que les cuisses descendent légèrement vers les genoux : les pieds reposent alors à plat sur les pédales, sans tirer sur les hanches.",
+            "Assieds-toi sur la moitié avant de l'assise, le dos droit et les épaules basses."
+          ]
+        },
+        {
+          "titre": "Les distances",
+          "points": [
+            "Caisse claire : entre les genoux, à peu près à hauteur de la ceinture. L'avant-bras est presque horizontal quand la baguette touche la peau.",
+            "Pédales : là où les pieds se posent d'eux-mêmes, jambes ouvertes sans effort.",
+            "Toms et cymbales : atteints en pivotant le buste, sans tendre le bras ni se pencher."
+          ]
+        },
+        {
+          "titre": "Les pieds",
+          "points": [
+            "Talon posé : le pied reste à plat et la cheville fait le mouvement. Précis et doux, idéal pour débuter.",
+            "Talon levé : la jambe entière participe et l'avant du pied appuie. Plus de puissance, pour le rock notamment."
+          ],
+          "apres": [
+            "Les deux techniques se complètent. Commence talon posé, à faible volume."
+          ]
+        },
+        {
+          "titre": "Avant de jouer",
+          "points": [
+            "Dos droit, épaules relâchées.",
+            "Coudes près du corps, sans les coller.",
+            "Baguettes tenues au pivot, doigts souples.",
+            "Chaque élément atteint sans effort.",
+            "Protections auditives sur une batterie acoustique."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Solfège rythmique",
+      "pages": [
+        {
+          "titre": "La pulsation et la mesure",
+          "figure": "mesure",
+          "mise_en_page": "pile",
+          "texte": [
+            "La pulsation est le battement régulier de la musique, celui sur lequel on tape du pied. Chaque battement est un temps.",
+            "Les temps sont regroupés en mesures, séparées par des barres. Le chiffrage 4/4 annonce quatre temps par mesure, chacun valant une noire."
+          ]
+        },
+        {
+          "titre": "Les valeurs de notes",
+          "figure": "valeurs",
+          "mise_en_page": "pile",
+          "texte": [
+            "La forme d'une note indique sa durée, et chaque valeur dure la moitié de la précédente. À la batterie, où un son ne se tient pas, la valeur dit surtout quand viendra la frappe suivante."
+          ]
+        },
+        {
+          "titre": "Les silences",
+          "figure": "silences",
+          "mise_en_page": "pile",
+          "texte": [
+            "À chaque valeur de note correspond un silence de même durée. Pendant un silence, on ne frappe pas, mais on continue de compter."
+          ]
+        },
+        {
+          "titre": "Compter",
+          "figure": "compter",
+          "mise_en_page": "pile",
+          "texte": [
+            "Compter à voix haute est le meilleur moyen de placer les notes. Les noires se comptent « 1, 2, 3, 4 ». Les croches ajoutent « et » entre les temps.",
+            "Pour les doubles croches, chaque temps se découpe en quatre. Un usage répandu est de dire « 1 e et a »."
+          ]
+        },
+        {
+          "titre": "Les ligatures",
+          "figure": "ligatures",
+          "mise_en_page": "pile",
+          "texte": [
+            "Les croches et les doubles croches voisines sont reliées par des barres, les ligatures : une barre pour les croches, deux pour les doubles croches.",
+            "Une ligature regroupe en général les notes d'un même temps. L'œil repère ainsi les temps d'un seul regard."
+          ]
+        },
+        {
+          "titre": "Le point et le triolet",
+          "figure": "point",
+          "mise_en_page": "pile",
+          "texte": [
+            "Un point placé après une note l'allonge de la moitié de sa valeur : une noire pointée dure un temps et demi.",
+            "Le triolet répartit trois notes égales là où il y en aurait deux : trois croches en triolet occupent un seul temps."
+          ]
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "id": "siege",
+      "nom": "Siège",
+      "type": "siege",
+      "x": 220,
+      "y": 352,
+      "r": 24,
+      "texte": "Le tabouret du batteur. Sa hauteur conditionne toute la position : voir le chapitre « S'installer »."
+    },
+    {
+      "id": "grosse_caisse",
+      "nom": "Grosse caisse",
+      "type": "grosse_caisse",
+      "x": 220,
+      "y": 150,
+      "r": 60,
+      "texte": "Le plus grand fût, posé au sol. Elle se joue au pied droit, avec une pédale, et donne les appuis graves du rythme."
+    },
+    {
+      "id": "caisse_claire",
+      "nom": "Caisse claire",
+      "type": "fut",
+      "x": 128,
+      "y": 252,
+      "r": 38,
+      "texte": "Fût peu profond, placé entre les genoux. Des fils métalliques, le timbre, vibrent contre la peau du dessous et lui donnent son claquement. Elle marque le plus souvent les temps 2 et 4."
+    },
+    {
+      "id": "tom_basse",
+      "nom": "Tom basse",
+      "type": "fut",
+      "x": 342,
+      "y": 262,
+      "r": 44,
+      "texte": "Le plus grave des toms, posé sur trois pieds à droite du batteur."
+    },
+    {
+      "id": "tom1",
+      "nom": "Tom 1",
+      "type": "fut",
+      "x": 166,
+      "y": 122,
+      "r": 30,
+      "texte": "Le plus aigu des toms, monté au-dessus de la grosse caisse. Les toms servent surtout aux breaks, les transitions entre deux parties."
+    },
+    {
+      "id": "tom2",
+      "nom": "Tom 2",
+      "type": "fut",
+      "x": 274,
+      "y": 122,
+      "r": 33,
+      "texte": "Le tom médium, monté à côté du premier. Un peu plus large, donc un peu plus grave."
+    },
+    {
+      "id": "charleston",
+      "nom": "Charleston",
+      "type": "cymbale",
+      "x": 44,
+      "y": 212,
+      "r": 36,
+      "texte": "Deux cymbales face à face sur un pied à pédale. Le pied gauche les serre ou les ouvre, et la baguette y joue la pulsation du rythme."
+    },
+    {
+      "id": "crash",
+      "nom": "Crash",
+      "type": "cymbale",
+      "x": 72,
+      "y": 74,
+      "r": 46,
+      "texte": "Cymbale au son explosif, qui s'éteint lentement. Elle souligne un accent ou le début d'une partie."
+    },
+    {
+      "id": "ride",
+      "nom": "Ride",
+      "type": "cymbale",
+      "x": 384,
+      "y": 118,
+      "r": 50,
+      "texte": "Grande cymbale au son net et tenu. Elle remplace le charleston pour jouer la pulsation, avec une couleur plus ouverte."
+    }
+  ]
+}
