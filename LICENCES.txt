@@ -1,0 +1,12 @@
+Drum Master : composants tiers
+
+alphaTab 1.9 (lecture des fichiers Guitar Pro, MusicXML et Capella)
+  Licence Mozilla Public License 2.0 : https://www.mozilla.org/MPL/2.0/
+  Code source : https://github.com/CoderLine/alphaTab
+  Utilisé sans modification.
+
+Archivo (police)
+  SIL Open Font License 1.1, voir fonts/OFL-Archivo.txt
+
+Sons de batterie (kit Gretsch)
+  Enregistrements de bigjoedrummer et shpira, licence CC0, voir sons/CREDITS.txt
