@@ -130,7 +130,25 @@
 					"mise_en_page": "pile",
 					"texte": [
 						"La pulsation est le battement régulier de la musique, celui sur lequel on tape du pied. Chaque battement est un temps.",
-						"Les temps sont regroupés en mesures, séparées par des barres. Le chiffrage 4/4 annonce quatre temps par mesure, chacun valant une noire."
+						"Les temps sont regroupés par paquets égaux, les mesures, séparées sur la partition par des barres verticales. On compte les temps de chaque mesure à voix haute, « 1, 2, 3, 4 », et on repart à 1 après chaque barre.",
+						"Combien de temps dans une mesure, et quelle note vaut un temps ? C'est le chiffrage, au début de la portée, qui le dit."
+					]
+				},
+				{
+					"titre": "Le chiffrage 4/4",
+					"figure": "chiffrage",
+					"mise_en_page": "pile",
+					"texte": [
+						"Au début de la partition, deux chiffres empilés annoncent la mesure. Celui du haut dit combien il y a de temps dans chaque mesure. Celui du bas dit quelle note vaut un temps.",
+						"Le chiffre du bas compte en morceaux de ronde : 4 veut dire le quart de la ronde, c'est-à-dire la noire. Un 2 désignerait la blanche, un 8 la croche."
+					],
+					"points": [
+						"En 4/4, une mesure dure toujours quatre noires : une ronde, deux blanches, huit croches ou seize doubles croches.",
+						"Le 1 est le temps fort, celui où l'on retombe ; le 3 est un peu moins fort ; le 2 et le 4 sont faibles. En rock, la caisse claire frappe justement le 2 et le 4.",
+						"Le chiffrage ne donne pas la vitesse, c'est le tempo qui la donne. À 60 bpm, un temps dure une seconde et la mesure quatre secondes ; à 120 bpm, deux fois moins."
+					],
+					"apres": [
+						"On croise aussi le 3/4 de la valse, qui se compte « 1, 2, 3 », et plus loin dans la méthode le 12/8. Le 4/4 s'écrit parfois avec un grand C."
 					]
 				},
 				{
