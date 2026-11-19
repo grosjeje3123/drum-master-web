@@ -1,24 +1,69 @@
 {
 	"etapes": [
 		{
-			"id": "e1",
-			"titre": "Premiers coups",
-			"resume": "La pulsation, les noires, les croches et les silences, à la caisse claire.",
+			"id": "decouvrir",
+			"titre": "Découvrir la batterie",
+			"resume": "Les éléments du kit, la tenue des baguettes et l'installation : savoir de quoi on parle avant de jouer.",
 			"lecons": [
 				{
-					"id": "e1l1",
-					"titre": "Le temps et la noire",
+					"id": "d1",
+					"titre": "La batterie",
+					"theorie": [
+						"kit",
+						"portee"
+					],
+					"texte": [],
+					"exercices": []
+				},
+				{
+					"id": "d2",
+					"titre": "Tenir les baguettes",
+					"theorie": [
+						"baguette",
+						"orientation",
+						"rebond",
+						"erreurs"
+					],
+					"texte": [],
+					"exercices": []
+				},
+				{
+					"id": "d3",
+					"titre": "S'installer",
+					"theorie": [
+						"siege",
+						"distances",
+						"pieds",
+						"avant"
+					],
+					"texte": [],
+					"exercices": []
+				}
+			],
+			"atelier": {
+				"vue": "theorie",
+				"titre": "Toute la théorie",
+				"detail": "Atelier Théorie"
+			}
+		},
+		{
+			"id": "frappe",
+			"titre": "La frappe",
+			"resume": "Le stick control à la caisse claire : des coups réguliers et deux mains qui sonnent pareil.",
+			"lecons": [
+				{
+					"id": "f1",
+					"titre": "Un coup par clic",
 					"texte": [
-						"La musique avance sur une pulsation régulière : les temps. En batterie, on les compte presque toujours par quatre : 1, 2, 3, 4, puis on recommence. Ces quatre temps forment une mesure.",
-						"La noire dure un temps : un coup par temps, sur chaque clic du métronome.",
-						"Frappe au centre de la peau et laisse la baguette rebondir d'elle-même, sans l'écraser. Le mouvement part du poignet, le bras reste détendu.",
-						"Compte à voix haute pendant que tu joues : « 1, 2, 3, 4 ». C'est la meilleure habitude à prendre dès le début."
+						"Le stick control, c'est le travail des mains seules, sur la caisse claire ou un pad, pour que chaque coup sonne comme le précédent. Les lettres au-dessus de la portée donnent la main : D pour la droite, G pour la gauche.",
+						"Chaque coup est un lancer : la baguette part du poignet, frappe le centre de la peau et remonte d'elle-même. Garde la prise au pivot et les doigts souples.",
+						"Pour commencer, un coup sur chaque clic du métronome."
 					],
 					"exercices": [
 						{
-							"id": "e1l1a",
-							"titre": "Noires, main droite",
-							"consigne": "Un coup par temps, main droite seule.",
+							"id": "f1a",
+							"titre": "Main droite",
+							"consigne": "Un coup par clic, main droite seule, la baguette toujours lancée de la même hauteur.",
 							"pas": 2,
 							"mesures": 1,
 							"voix": {
@@ -34,9 +79,9 @@
 							"tolerance": 40
 						},
 						{
-							"id": "e1l1b",
-							"titre": "Noires, main gauche",
-							"consigne": "La même chose avec la main gauche : elle doit sonner comme la droite.",
+							"id": "f1b",
+							"titre": "Main gauche",
+							"consigne": "La même chose main gauche : elle doit sonner comme la droite.",
 							"pas": 2,
 							"mesures": 1,
 							"voix": {
@@ -52,9 +97,231 @@
 							"tolerance": 40
 						},
 						{
+							"id": "f1c",
+							"titre": "Mains alternées",
+							"consigne": "Droite, gauche, droite, gauche : une main par clic.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"sn": "x.x.x.x."
+							},
+							"mains": "D.G.D.G.",
+							"tempo": [
+								60,
+								90,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						}
+					],
+					"theorie": []
+				},
+				{
+					"id": "f2",
+					"titre": "Deux coups par clic",
+					"texte": [
+						"On double le débit : un coup sur le clic, un autre pile entre deux clics. Le tempo ne change pas, ce sont les mains qui vont deux fois plus vite.",
+						"Les deux coups doivent être identiques. Écoute-les : si la main gauche sonne plus faible ou arrive en retard, ralentis."
+					],
+					"exercices": [
+						{
+							"id": "f2a",
+							"titre": "Coups simples, départ main droite",
+							"consigne": "Droite sur le clic, gauche entre les clics.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"sn": "xxxxxxxx"
+							},
+							"mains": "DGDGDGDG",
+							"tempo": [
+								60,
+								90,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "f2b",
+							"titre": "Coups simples, départ main gauche",
+							"consigne": "Gauche sur le clic, droite entre les clics : la main faible mène.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"sn": "xxxxxxxx"
+							},
+							"mains": "GDGDGDGD",
+							"tempo": [
+								60,
+								90,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						}
+					],
+					"theorie": []
+				},
+				{
+					"id": "f3",
+					"titre": "Le coup double",
+					"texte": [
+						"Deux coups de la même main, puis deux de l'autre. Le piège : le second coup, plus faible que le premier.",
+						"À tempo lent, ce sont deux vrais lancers du poignet. Le rebond viendra plus tard, avec la vitesse."
+					],
+					"exercices": [
+						{
+							"id": "f3a",
+							"titre": "Doubles, départ main droite",
+							"consigne": "Deux droites, deux gauches, sans accentuer le premier coup.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"sn": "xxxxxxxx"
+							},
+							"mains": "DDGGDDGG",
+							"tempo": [
+								60,
+								85,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "f3b",
+							"titre": "Doubles, départ main gauche",
+							"consigne": "Deux gauches, deux droites.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"sn": "xxxxxxxx"
+							},
+							"mains": "GGDDGGDD",
+							"tempo": [
+								60,
+								85,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "f3c",
+							"titre": "Quatre et quatre",
+							"consigne": "Quatre coups de la droite, quatre de la gauche : les deux séries identiques.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"sn": "xxxxxxxx"
+							},
+							"mains": "DDDDGGGG",
+							"tempo": [
+								60,
+								85,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						}
+					],
+					"theorie": []
+				},
+				{
+					"id": "f4",
+					"titre": "Simples et doubles mêlés",
+					"texte": [
+						"Coups simples et coups doubles dans la même mesure. Lis les lettres un temps à l'avance, comme on lit un texte.",
+						"Si une main prend le dessus, ralentis : la régularité passe avant la vitesse."
+					],
+					"exercices": [
+						{
+							"id": "f4a",
+							"titre": "Simples puis doubles",
+							"consigne": "Quatre coups simples, puis deux doubles.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"sn": "xxxxxxxx"
+							},
+							"mains": "DGDGDDGG",
+							"tempo": [
+								60,
+								85,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "f4b",
+							"titre": "Doubles puis simples",
+							"consigne": "Deux doubles, puis quatre coups simples.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"sn": "xxxxxxxx"
+							},
+							"mains": "DDGGDGDG",
+							"tempo": [
+								60,
+								85,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "f4c",
+							"titre": "Simples puis doubles, main gauche",
+							"consigne": "Le premier exercice, en partant de la main gauche.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"sn": "xxxxxxxx"
+							},
+							"mains": "GDGDGGDD",
+							"tempo": [
+								60,
+								85,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						}
+					],
+					"theorie": []
+				}
+			],
+			"atelier": {
+				"vue": "baguettes",
+				"titre": "Plus de doigtés",
+				"detail": "Atelier Stick control"
+			}
+		},
+		{
+			"id": "e1",
+			"titre": "Lire et compter",
+			"resume": "Noires, croches et silences : lire la partition en comptant à voix haute.",
+			"lecons": [
+				{
+					"id": "e1l1",
+					"titre": "La mesure et la noire",
+					"theorie": [
+						"mesure",
+						"valeurs"
+					],
+					"texte": [
+						"Tu connais déjà le geste : un coup par clic. Sur la partition, ce coup s'écrit avec une noire, et quatre noires remplissent une mesure en 4/4.",
+						"Joue en comptant à voix haute « 1, 2, 3, 4 ». Le curseur sur la portée te montre où tu en es dans la mesure."
+					],
+					"exercices": [
+						{
 							"id": "e1l1c",
-							"titre": "Noires alternées",
-							"consigne": "Droite, gauche, droite, gauche : une main par temps.",
+							"titre": "Noires en comptant",
+							"consigne": "Un coup par temps, mains alternées, en comptant à voix haute.",
 							"pas": 2,
 							"mesures": 1,
 							"voix": {
@@ -74,30 +341,15 @@
 				{
 					"id": "e1l2",
 					"titre": "Les croches",
+					"theorie": [
+						"compter",
+						"ligatures"
+					],
 					"texte": [
-						"La croche dure un demi-temps : deux croches par temps. On les compte « 1 et 2 et 3 et 4 et » : le chiffre tombe sur le clic, le « et » au milieu.",
-						"On les joue en alternant les mains : droite sur les chiffres, gauche sur les « et ».",
-						"Les deux mains doivent frapper à la même hauteur et avec la même force. Écoute : les coups doivent être identiques."
+						"Deux coups par clic, ce sont deux croches par temps. On les compte « 1 et 2 et 3 et 4 et » : le chiffre tombe sur le clic, le « et » au milieu.",
+						"Noires et croches se mélangent maintenant : lis la partition un temps à l'avance et garde la main droite sur les chiffres."
 					],
 					"exercices": [
-						{
-							"id": "e1l2a",
-							"titre": "Croches alternées",
-							"consigne": "Huit coups par mesure, droite sur les temps, gauche sur les « et ».",
-							"pas": 2,
-							"mesures": 1,
-							"voix": {
-								"sn": "xxxxxxxx"
-							},
-							"mains": "DGDGDGDG",
-							"tempo": [
-								60,
-								90,
-								5
-							],
-							"valider": 4,
-							"tolerance": 40
-						},
 						{
 							"id": "e1l2b",
 							"titre": "Noires puis croches",
@@ -117,18 +369,36 @@
 							"tolerance": 40
 						},
 						{
-							"id": "e1l2c",
-							"titre": "Croches, gauche en tête",
-							"consigne": "Même chose en commençant par la main gauche, pour équilibrer les deux mains.",
+							"id": "e1l2d",
+							"titre": "Une noire, deux croches",
+							"consigne": "Noire sur 1 et 3, deux croches sur 2 et 4.",
 							"pas": 2,
 							"mesures": 1,
 							"voix": {
-								"sn": "xxxxxxxx"
+								"sn": "x.xxx.xx"
 							},
-							"mains": "GDGDGDGD",
+							"mains": "D.DGD.DG",
 							"tempo": [
 								60,
-								85,
+								90,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e1l2e",
+							"titre": "Deux croches, une noire",
+							"consigne": "L'inverse : deux croches sur 1 et 3, une noire sur 2 et 4.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"sn": "xxx.xxx."
+							},
+							"mains": "DGD.DGD.",
+							"tempo": [
+								60,
+								90,
 								5
 							],
 							"valider": 4,
@@ -139,8 +409,10 @@
 				{
 					"id": "e1l3",
 					"titre": "Les silences",
+					"theorie": [
+						"silences"
+					],
 					"texte": [
-						"Le silence se compte autant que la note. Le soupir vaut un temps sans jouer, le demi-soupir un demi-temps.",
 						"Pendant un silence, continue de compter à voix haute et garde le mouvement des mains en l'air, comme si tu jouais sans toucher la peau.",
 						"Le piège : se précipiter sur la note qui suit un silence. Attends bien le clic."
 					],
@@ -165,17 +437,17 @@
 						},
 						{
 							"id": "e1l3b",
-							"titre": "Croches et demi-soupirs",
-							"consigne": "Trois croches, un demi-soupir, trois croches, un demi-soupir.",
+							"titre": "Demi-soupirs sur 2 et 4",
+							"consigne": "Sur 2 et 4, le demi-soupir prend la place du chiffre : compte « 2 » sans jouer et frappe sur le « et ».",
 							"pas": 2,
 							"mesures": 1,
 							"voix": {
-								"sn": "xxx.xxx."
+								"sn": "xx.xxx.x"
 							},
-							"mains": "DGD.DGD.",
+							"mains": "DG.GDG.G",
 							"tempo": [
 								60,
-								90,
+								85,
 								5
 							],
 							"valider": 4,
@@ -257,7 +529,8 @@
 							"valider": 4,
 							"tolerance": 40
 						}
-					]
+					],
+					"theorie": []
 				},
 				{
 					"id": "e2l2",
@@ -286,7 +559,8 @@
 							"valider": 4,
 							"tolerance": 40
 						}
-					]
+					],
+					"theorie": []
 				},
 				{
 					"id": "e2l3",
@@ -335,7 +609,8 @@
 							"valider": 4,
 							"tolerance": 40
 						}
-					]
+					],
+					"theorie": []
 				},
 				{
 					"id": "e2l4",
@@ -405,7 +680,8 @@
 							"valider": 4,
 							"tolerance": 40
 						}
-					]
+					],
+					"theorie": []
 				},
 				{
 					"id": "e2l5",
@@ -436,12 +712,18 @@
 							"valider": 4,
 							"tolerance": 40
 						}
-					]
+					],
+					"theorie": []
 				}
 			],
 			"revision": {
 				"morceau": "Premier concert",
 				"difficulte": "moyen"
+			},
+			"atelier": {
+				"vue": "grooves",
+				"titre": "D'autres grooves",
+				"detail": "Atelier Grooves"
 			}
 		},
 		{
