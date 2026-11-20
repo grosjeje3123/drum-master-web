@@ -730,16 +730,599 @@
 		{
 			"id": "e3",
 			"titre": "Premiers breaks",
-			"resume": "Fills en croches de la caisse claire vers les toms, et retour dans le temps.",
-			"lecons": [],
-			"bientot": true
+			"resume": "Fills en croches de la caisse claire vers les toms, et retour sur le 1 avec la crash.",
+			"lecons": [
+				{
+					"id": "e3l1",
+					"titre": "Le break de deux temps",
+					"texte": [
+						"Un break (ou fill) remplace la fin d'une mesure pour annoncer la suite : un refrain, un changement, une reprise. Le groove s'arrête, les mains jouent une petite phrase, et tout le monde retombe ensemble sur le 1.",
+						"Premier break : quatre croches à la caisse claire sur les temps 3 et 4, comptées « 3 et 4 et », mains alternées en partant de la droite. La main droite quitte la charleston après le « 2 et ».",
+						"La règle d'or : le tempo ne bouge pas. Un break joué trop vite, c'est le défaut le plus courant. Continue de compter à voix haute pendant le break."
+					],
+					"exercices": [
+						{
+							"id": "e3l1a",
+							"titre": "Quatre croches à la caisse claire",
+							"consigne": "Objectif : quitter le groove et y revenir sans décaler le temps. Une mesure de groove, puis le break sur 3 et 4.",
+							"pas": 2,
+							"mesures": 2,
+							"voix": {
+								"hh": "xxxxxxxxxxxx....",
+								"sn": "..x...x...x.xxxx",
+								"bd": "x...x...x......."
+							},
+							"mains": "............DGDG",
+							"tempo": [
+								60,
+								90,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e3l1b",
+							"titre": "Retomber sur le 1",
+							"consigne": "Objectif : finir le break par une crash et une grosse caisse pile sur le 1. La main droite frappe la crash puis revient à la charleston sans perdre une croche.",
+							"pas": 2,
+							"mesures": 2,
+							"voix": {
+								"cr": "x...............",
+								"hh": ".xxxxxxxxxxx....",
+								"sn": "..x...x...x.xxxx",
+								"bd": "x...x...x......."
+							},
+							"mains": "............DGDG",
+							"tempo": [
+								60,
+								90,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e3l1c",
+							"titre": "Le break court",
+							"consigne": "Objectif : un break d'un seul temps. Deux croches à la caisse claire sur « 4 et », le groove continue jusque-là.",
+							"pas": 2,
+							"mesures": 2,
+							"voix": {
+								"cr": "x...............",
+								"hh": ".xxxxxxxxxxxxx..",
+								"sn": "..x...x...x...xx",
+								"bd": "x...x...x...x..."
+							},
+							"mains": "..............DG",
+							"tempo": [
+								60,
+								90,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						}
+					],
+					"theorie": []
+				},
+				{
+					"id": "e3l2",
+					"titre": "Vers les toms",
+					"texte": [
+						"Les mêmes croches, mais on voyage : de la caisse claire vers le tom 1, le tom 2, puis le tom basse. On descend toujours de la gauche vers la droite du kit, de l'aigu vers le grave.",
+						"Ce sont les bras qui se déplacent, pas le buste. Regarde le fût suivant un coup à l'avance, et frappe le centre de chaque peau.",
+						"Les toms résonnent plus longtemps que la caisse claire : ne te laisse pas ralentir par le son, fie-toi au clic."
+					],
+					"exercices": [
+						{
+							"id": "e3l2a",
+							"titre": "Caisse claire puis tom 1",
+							"consigne": "Objectif : un premier déplacement. Deux croches à la caisse claire, deux au tom 1.",
+							"pas": 2,
+							"mesures": 2,
+							"voix": {
+								"cr": "x...............",
+								"hh": ".xxxxxxxxxxx....",
+								"sn": "..x...x...x.xx..",
+								"t1": "..............xx",
+								"bd": "x...x...x......."
+							},
+							"mains": "............DGDG",
+							"tempo": [
+								60,
+								90,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e3l2b",
+							"titre": "La descente",
+							"consigne": "Objectif : un coup par fût, sans regarder ses mains. Caisse claire, tom 1, tom 2, tom basse.",
+							"pas": 2,
+							"mesures": 2,
+							"voix": {
+								"cr": "x...............",
+								"hh": ".xxxxxxxxxxx....",
+								"sn": "..x...x...x.x...",
+								"t1": ".............x..",
+								"t2": "..............x.",
+								"t3": "...............x",
+								"bd": "x...x...x......."
+							},
+							"mains": "............DGDG",
+							"tempo": [
+								60,
+								85,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e3l2c",
+							"titre": "Le grand break",
+							"consigne": "Objectif : tenir une mesure entière de break. Deux croches par fût, de la caisse claire au tom basse, puis crash sur le 1.",
+							"pas": 2,
+							"mesures": 2,
+							"voix": {
+								"cr": "x...............",
+								"hh": ".xxxxxxx........",
+								"sn": "..x...x.xx......",
+								"t1": "..........xx....",
+								"t2": "............xx..",
+								"t3": "..............xx",
+								"bd": "x...x..........."
+							},
+							"mains": "........DGDGDGDG",
+							"tempo": [
+								60,
+								85,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						}
+					],
+					"theorie": []
+				},
+				{
+					"id": "e3l3",
+					"titre": "Le break dans la phrase",
+					"texte": [
+						"Dans un morceau, le break n'arrive pas toutes les deux mesures : il ferme une phrase de quatre ou de huit mesures. Le plus dur n'est pas le break, c'est de compter les mesures qui le précèdent.",
+						"Compte les mesures à la place du 1 : « 1, 2, 3, 4 – 2, 2, 3, 4 – 3, 2, 3, 4 – 4, 2, break ».",
+						"Sous le break, la grosse caisse peut continuer sur 3 et 4 : elle garde le tempo pour toi et pour le groupe."
+					],
+					"exercices": [
+						{
+							"id": "e3l3a",
+							"titre": "Trois mesures et un break",
+							"consigne": "Objectif : placer le break au bon moment. Trois mesures de groove, break de deux temps à la quatrième, crash sur le 1.",
+							"pas": 2,
+							"mesures": 4,
+							"voix": {
+								"cr": "x...............................",
+								"hh": ".xxxxxxxxxxxxxxxxxxxxxxxxxxx....",
+								"sn": "..x...x...x...x...x...x...x.xxxx",
+								"bd": "x...x...x...x...x...x...x......."
+							},
+							"mains": "............................DGDG",
+							"tempo": [
+								65,
+								90,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e3l3b",
+							"titre": "Le break avec la grosse caisse",
+							"consigne": "Objectif : garder le pied pendant que les mains voyagent. La grosse caisse joue 3 et 4 sous la descente.",
+							"pas": 2,
+							"mesures": 2,
+							"voix": {
+								"cr": "x...............",
+								"hh": ".xxxxxxxxxxx....",
+								"sn": "..x...x...x.x...",
+								"t1": ".............x..",
+								"t2": "..............x.",
+								"t3": "...............x",
+								"bd": "x...x...x...x.x."
+							},
+							"mains": "............DGDG",
+							"tempo": [
+								60,
+								85,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e3l3c",
+							"titre": "Phrase avec descente",
+							"consigne": "Objectif : enchaîner comme dans un morceau. Trois mesures de groove, descente sur les toms à la quatrième, crash sur le 1.",
+							"pas": 2,
+							"mesures": 4,
+							"voix": {
+								"cr": "x...............................",
+								"hh": ".xxxxxxxxxxxxxxxxxxxxxxxxxxx....",
+								"sn": "..x...x...x...x...x...x...x.x...",
+								"t1": ".............................x..",
+								"t2": "..............................x.",
+								"t3": "...............................x",
+								"bd": "x...x...x...x...x...x...x...x.x."
+							},
+							"mains": "............................DGDG",
+							"tempo": [
+								65,
+								90,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						}
+					],
+					"theorie": []
+				}
+			],
+			"revision": {
+				"morceau": "Premier concert",
+				"difficulte": "difficile"
+			},
+			"atelier": {
+				"vue": "hero",
+				"titre": "Travailler un break en boucle",
+				"detail": "Drum Hero, passage en boucle"
+			}
 		},
 		{
 			"id": "e4",
 			"titre": "Doubles croches",
-			"resume": "Coups simples, doubles, paradiddle ; charleston en doubles, fills en doubles.",
-			"lecons": [],
-			"bientot": true
+			"resume": "Compter « 1 e et a », doigtés en doubles, charleston à deux mains et fills en doubles croches.",
+			"lecons": [
+				{
+					"id": "e4l1",
+					"titre": "Compter les doubles croches",
+					"theorie": [
+						"compter"
+					],
+					"texte": [
+						"Quatre coups par temps : ce sont les doubles croches. On les compte « 1 e et a, 2 e et a… ». Le chiffre tombe sur le clic, le « et » au milieu, comme pour les croches ; le « e » et le « a » se glissent entre les deux.",
+						"Mains alternées en partant de la droite : la droite joue les chiffres et les « et », la gauche joue les « e » et les « a ». Ce repère ne changera plus.",
+						"Le tempo de départ est lent exprès. Des doubles croches régulières à 50 valent mieux que des doubles bousculées à 80."
+					],
+					"exercices": [
+						{
+							"id": "e4l1a",
+							"titre": "Croches puis doubles",
+							"consigne": "Objectif : doubler le débit sans presser. Une mesure de croches, une mesure de doubles croches.",
+							"pas": 4,
+							"mesures": 2,
+							"voix": {
+								"sn": "x.x.x.x.x.x.x.x.xxxxxxxxxxxxxxxx"
+							},
+							"mains": "D.D.D.D.D.D.D.D.DGDGDGDGDGDGDGDG",
+							"tempo": [
+								50,
+								80,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e4l1b",
+							"titre": "Doubles croches",
+							"consigne": "Objectif : seize coups identiques par mesure, en comptant « 1 e et a ».",
+							"pas": 4,
+							"mesures": 1,
+							"voix": {
+								"sn": "xxxxxxxxxxxxxxxx"
+							},
+							"mains": "DGDGDGDGDGDGDGDG",
+							"tempo": [
+								50,
+								80,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e4l1c",
+							"titre": "Un temps de doubles, une noire",
+							"consigne": "Objectif : s'arrêter net sur le temps. Quatre doubles puis une noire, deux fois.",
+							"pas": 4,
+							"mesures": 1,
+							"voix": {
+								"sn": "xxxxx...xxxxx..."
+							},
+							"mains": "DGDGD...DGDGD...",
+							"tempo": [
+								50,
+								80,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						}
+					]
+				},
+				{
+					"id": "e4l2",
+					"titre": "Croche et deux doubles",
+					"texte": [
+						"En retirant une double croche sur quatre, on obtient les deux figures les plus courantes des breaks : « croche, deux doubles » et « deux doubles, croche ».",
+						"Garde le doigté des doubles croches : la main qui devait jouer la note retirée fait le geste en l'air. La droite reste sur les chiffres et les « et », quoi qu'il arrive."
+					],
+					"exercices": [
+						{
+							"id": "e4l2a",
+							"titre": "Croche, deux doubles",
+							"consigne": "Objectif : le « galop ». On joue « 1 . et a » : le « e » reste en l'air.",
+							"pas": 4,
+							"mesures": 1,
+							"voix": {
+								"sn": "x.xxx.xxx.xxx.xx"
+							},
+							"mains": "D.DGD.DGD.DGD.DG",
+							"tempo": [
+								50,
+								80,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e4l2b",
+							"titre": "Deux doubles, croche",
+							"consigne": "Objectif : la figure inverse. On joue « 1 e et . » : le « a » reste en l'air.",
+							"pas": 4,
+							"mesures": 1,
+							"voix": {
+								"sn": "xxx.xxx.xxx.xxx."
+							},
+							"mains": "DGD.DGD.DGD.DGD.",
+							"tempo": [
+								50,
+								80,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e4l2c",
+							"titre": "Les deux figures alternées",
+							"consigne": "Objectif : lire un temps à l'avance. Un temps de chaque figure, en alternance.",
+							"pas": 4,
+							"mesures": 1,
+							"voix": {
+								"sn": "x.xxxxx.x.xxxxx."
+							},
+							"mains": "D.DGDGD.D.DGDGD.",
+							"tempo": [
+								50,
+								75,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						}
+					],
+					"theorie": []
+				},
+				{
+					"id": "e4l3",
+					"titre": "Doigtés en doubles croches",
+					"texte": [
+						"Les doigtés du stick control, à la vitesse des doubles croches. Le coup double (deux coups par main) et le paradiddle (droite, gauche, droite, droite, puis l'inverse) servent partout : dans les breaks, pour changer de fût sans croiser les bras.",
+						"Dans le paradiddle, la main qui mène change à chaque temps : c'est ce qui le rend si utile, et un peu déroutant au début. Dis le doigté à voix haute les premières fois."
+					],
+					"exercices": [
+						{
+							"id": "e4l3a",
+							"titre": "Coups doubles",
+							"consigne": "Objectif : deux coups par main, de même force. Droite droite, gauche gauche.",
+							"pas": 4,
+							"mesures": 1,
+							"voix": {
+								"sn": "xxxxxxxxxxxxxxxx"
+							},
+							"mains": "DDGGDDGGDDGGDDGG",
+							"tempo": [
+								50,
+								75,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e4l3b",
+							"titre": "Le paradiddle",
+							"consigne": "Objectif : le doigté « D G D D, G D G G » sans accroc, la main qui mène changeant à chaque temps.",
+							"pas": 4,
+							"mesures": 1,
+							"voix": {
+								"sn": "xxxxxxxxxxxxxxxx"
+							},
+							"mains": "DGDDGDGGDGDDGDGG",
+							"tempo": [
+								50,
+								75,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						}
+					],
+					"theorie": []
+				},
+				{
+					"id": "e4l4",
+					"titre": "La charleston à deux mains",
+					"texte": [
+						"À tempo lent ou moyen, la charleston se joue souvent en doubles croches, mains alternées. La droite joue les chiffres et les « et », la gauche les « e » et les « a ».",
+						"Sur 2 et 4, c'est la main droite qui quitte la charleston pour frapper la caisse claire : à cet instant, il n'y a pas de coup de charleston.",
+						"La grosse caisse tombe toujours avec la main droite. Si le pied flotte, enlève la caisse claire et retravaille pied et mains seuls."
+					],
+					"exercices": [
+						{
+							"id": "e4l4a",
+							"titre": "Charleston en doubles croches",
+							"consigne": "Objectif : un tapis régulier à deux mains sur la charleston fermée.",
+							"pas": 4,
+							"mesures": 1,
+							"voix": {
+								"hh": "xxxxxxxxxxxxxxxx"
+							},
+							"mains": "DGDGDGDGDGDGDGDG",
+							"tempo": [
+								50,
+								80,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e4l4b",
+							"titre": "Avec la grosse caisse",
+							"consigne": "Objectif : poser le pied sur 1 et 3 sans bousculer les mains.",
+							"pas": 4,
+							"mesures": 1,
+							"voix": {
+								"hh": "xxxxxxxxxxxxxxxx",
+								"bd": "x.......x......."
+							},
+							"mains": "DGDGDGDGDGDGDGDG",
+							"tempo": [
+								50,
+								80,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e4l4c",
+							"titre": "Le groove en doubles croches",
+							"consigne": "Objectif : le groove complet. La main droite descend sur la caisse claire sur 2 et 4, puis remonte.",
+							"pas": 4,
+							"mesures": 1,
+							"voix": {
+								"hh": "xxxx.xxxxxxx.xxx",
+								"sn": "....x.......x...",
+								"bd": "x.......x......."
+							},
+							"mains": "DGDGDGDGDGDGDGDG",
+							"tempo": [
+								50,
+								80,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						}
+					],
+					"theorie": []
+				},
+				{
+					"id": "e4l5",
+					"titre": "Fills en doubles croches",
+					"texte": [
+						"Les breaks de l'étape précédente, deux fois plus denses. Le groove reste en croches ; au moment du break, les mains passent en doubles croches sans que le tempo change.",
+						"Le passage délicat est l'entrée dans le break : la première double croche tombe pile sur le 3, à la main droite. Pense « 3 e et a, 4 e et a, crash »."
+					],
+					"exercices": [
+						{
+							"id": "e4l5a",
+							"titre": "Huit doubles à la caisse claire",
+							"consigne": "Objectif : entrer dans le break et en sortir dans le temps. Une mesure de groove, puis deux temps de doubles croches.",
+							"pas": 4,
+							"mesures": 2,
+							"voix": {
+								"cr": "x...............................",
+								"hh": "..x.x.x.x.x.x.x.x.x.x.x.........",
+								"sn": "....x.......x.......x...xxxxxxxx",
+								"bd": "x.......x.......x..............."
+							},
+							"mains": "........................DGDGDGDG",
+							"tempo": [
+								50,
+								80,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e4l5b",
+							"titre": "Caisse claire et toms",
+							"consigne": "Objectif : changer de fût en doubles croches. Quatre coups à la caisse claire, deux au tom 1, deux au tom basse.",
+							"pas": 4,
+							"mesures": 2,
+							"voix": {
+								"cr": "x...............................",
+								"hh": "..x.x.x.x.x.x.x.x.x.x.x.........",
+								"sn": "....x.......x.......x...xxxx....",
+								"t1": "............................xx..",
+								"t3": "..............................xx",
+								"bd": "x.......x.......x..............."
+							},
+							"mains": "........................DGDGDGDG",
+							"tempo": [
+								50,
+								75,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e4l5c",
+							"titre": "Le tour des fûts",
+							"consigne": "Objectif : une mesure entière de break. Quatre doubles croches par fût, de la caisse claire au tom basse, puis crash sur le 1.",
+							"pas": 4,
+							"mesures": 2,
+							"voix": {
+								"cr": "x...............................",
+								"hh": "..x.x.x.x.x.x.x.................",
+								"sn": "....x.......x...xxxx............",
+								"t1": "....................xxxx........",
+								"t2": "........................xxxx....",
+								"t3": "............................xxxx",
+								"bd": "x.......x......................."
+							},
+							"mains": "................DGDGDGDGDGDGDGDG",
+							"tempo": [
+								50,
+								75,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						}
+					],
+					"theorie": []
+				}
+			],
+			"revision": {
+				"morceau": "Balade du soir",
+				"difficulte": "moyen"
+			},
+			"atelier": {
+				"vue": "baguettes",
+				"titre": "Les doigtés en doubles croches",
+				"detail": "Atelier Stick control"
+			}
 		},
 		{
 			"id": "e5",
