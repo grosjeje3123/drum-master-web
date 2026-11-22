@@ -1,8 +1,8 @@
 // Service worker : l'appli entière (pages, code, sons, données, lecteur de tablatures) est gardée
 // sur l'appareil dès la première visite, pour jouer hors connexion (métro).
 // À la construction, la liste des fichiers et le numéro de version sont écrits ci-dessous.
-const VERSION = '046b7c0753';
-const PRECACHE = ["./assets/Anton-latin-Byf51wtH.woff2","./assets/Barlow-400-latin-qiz4-Cze.woff2","./assets/Barlow-500-latin-BPAOfeC8.woff2","./assets/Barlow-600-latin-DILqtrty.woff2","./assets/Barlow-700-latin-A9pxMQ4z.woff2","./assets/alphaTab.core-DycQ949C.js","./assets/index-B96qikPI.css","./assets/index-CpJX__sn.js","./data/grooves.json","./data/morceaux.json","./data/parcours.json","./data/theorie.json","./icon-192.png","./icon-512.png","./icon-maskable-512.png","./icon.svg","./index.html","./manifest.webmanifest","./sons/crash.pcm","./sons/hat_closed.pcm","./sons/hat_foot.pcm","./sons/hat_open.pcm","./sons/kick.pcm","./sons/ride.pcm","./sons/snare.pcm","./sons/tom1.pcm","./sons/tom2.pcm","./sons/tom3.pcm"];
+const VERSION = 'f24b9e374b';
+const PRECACHE = ["./assets/Anton-latin-Byf51wtH.woff2","./assets/Barlow-400-latin-qiz4-Cze.woff2","./assets/Barlow-500-latin-BPAOfeC8.woff2","./assets/Barlow-600-latin-DILqtrty.woff2","./assets/Barlow-700-latin-A9pxMQ4z.woff2","./assets/alphaTab.core-DycQ949C.js","./assets/index-B96qikPI.css","./assets/index-pNW9BcNf.js","./data/grooves.json","./data/morceaux.json","./data/parcours.json","./data/theorie.json","./icon-192.png","./icon-512.png","./icon-maskable-512.png","./icon.svg","./index.html","./manifest.webmanifest","./sons/crash.pcm","./sons/hat_closed.pcm","./sons/hat_foot.pcm","./sons/hat_open.pcm","./sons/kick.pcm","./sons/ride.pcm","./sons/snare.pcm","./sons/tom1.pcm","./sons/tom2.pcm","./sons/tom3.pcm"];
 const CACHE = `drum-master-${VERSION}`;
 
 self.addEventListener('install', (e) => {
