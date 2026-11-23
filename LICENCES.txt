@@ -5,8 +5,8 @@ alphaTab 1.9.0 (lecture des fichiers Guitar Pro, MusicXML et Capella)
   Code source de la version utilisée : https://github.com/CoderLine/alphaTab/tree/v1.9.0
   Paquet npm : @coderline/alphatab 1.9.0, utilisé sans modification.
 
-Anton et Barlow (polices)
-  SIL Open Font License 1.1, voir fonts/OFL-Anton.txt et fonts/OFL-Barlow.txt
+Montserrat (police)
+  SIL Open Font License 1.1, voir fonts/OFL-Montserrat.txt
 
 Sons de batterie (kit Gretsch)
   Enregistrements de bigjoedrummer et shpira, licence CC0, voir sons/CREDITS.txt
