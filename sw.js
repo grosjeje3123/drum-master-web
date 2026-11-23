@@ -1,8 +1,8 @@
 // Service worker : l'appli entière (pages, code, sons, données, lecteur de tablatures) est gardée
 // sur l'appareil dès la première visite, pour jouer hors connexion (métro).
 // À la construction, la liste des fichiers et le numéro de version sont écrits ci-dessous.
-const VERSION = '35f5326b58';
-const PRECACHE = ["./assets/Montserrat-400-latin-BLhwKU8k.woff2","./assets/Montserrat-500-latin-DRFEGfly.woff2","./assets/Montserrat-600-latin-UVxSCcoG.woff2","./assets/Montserrat-700-latin-BdjcYUrC.woff2","./assets/Montserrat-800-latin-axpkC1rd.woff2","./assets/alphaTab.core-DycQ949C.js","./assets/index-BHRKahRe.js","./assets/index-CmZxsFp7.css","./data/grooves.json","./data/morceaux.json","./data/parcours.json","./data/theorie.json","./icon-192.png","./icon-512.png","./icon-64.png","./icon-maskable-512.png","./index.html","./logo.webp","./manifest.webmanifest","./onset-worklet.js","./sons/crash.pcm","./sons/hat_closed.pcm","./sons/hat_foot.pcm","./sons/hat_open.pcm","./sons/kick.pcm","./sons/ride.pcm","./sons/snare.pcm","./sons/tom1.pcm","./sons/tom2.pcm","./sons/tom3.pcm"];
+const VERSION = '9b048dea94';
+const PRECACHE = ["./assets/Montserrat-400-latin-BLhwKU8k.woff2","./assets/Montserrat-500-latin-DRFEGfly.woff2","./assets/Montserrat-600-latin-UVxSCcoG.woff2","./assets/Montserrat-700-latin-BdjcYUrC.woff2","./assets/Montserrat-800-latin-axpkC1rd.woff2","./assets/alphaTab.core-DycQ949C.js","./assets/index-Dsz7fRg6.js","./assets/index-HkHefSzM.css","./data/grooves.json","./data/morceaux.json","./data/parcours.json","./data/theorie.json","./icon-192.png","./icon-512.png","./icon-64.png","./icon-maskable-512.png","./index.html","./logo.webp","./manifest.webmanifest","./onset-worklet.js","./sons/crash.pcm","./sons/hat_closed.pcm","./sons/hat_foot.pcm","./sons/hat_open.pcm","./sons/kick.pcm","./sons/ride.pcm","./sons/snare.pcm","./sons/tom1.pcm","./sons/tom2.pcm","./sons/tom3.pcm"];
 const CACHE = `drum-master-${VERSION}`;
 
 self.addEventListener('install', (e) => {

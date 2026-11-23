@@ -43,7 +43,7 @@
 			"atelier": {
 				"vue": "theorie",
 				"titre": "Toute la théorie",
-				"detail": "Atelier Théorie"
+				"detail": "Aide-mémoire"
 			}
 		},
 		{
@@ -298,7 +298,7 @@
 			"atelier": {
 				"vue": "baguettes",
 				"titre": "Plus de doigtés",
-				"detail": "Atelier Stick control"
+				"detail": "En pratique libre : Stick control"
 			}
 		},
 		{
@@ -724,7 +724,7 @@
 			"atelier": {
 				"vue": "grooves",
 				"titre": "D'autres grooves",
-				"detail": "Atelier Grooves"
+				"detail": "En pratique libre : Grooves"
 			}
 		},
 		{
@@ -1321,7 +1321,7 @@
 			"atelier": {
 				"vue": "baguettes",
 				"titre": "Les doigtés en doubles croches",
-				"detail": "Atelier Stick control"
+				"detail": "En pratique libre : Stick control"
 			}
 		},
 		{
@@ -1620,7 +1620,7 @@
 			"atelier": {
 				"vue": "grooves",
 				"titre": "Les grooves ternaires",
-				"detail": "Atelier Grooves, style Shuffle et triolets"
+				"detail": "En pratique libre : Grooves, style Shuffle et triolets"
 			}
 		},
 		{
@@ -2026,7 +2026,7 @@
 			"atelier": {
 				"vue": "grooves",
 				"titre": "Les grooves funk",
-				"detail": "Atelier Grooves, style Funk"
+				"detail": "En pratique libre : Grooves, style Funk"
 			}
 		}
 	]
