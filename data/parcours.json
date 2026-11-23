@@ -1327,16 +1327,707 @@
 		{
 			"id": "e5",
 			"titre": "Triolets et shuffle",
-			"resume": "Compter les triolets, le shuffle, la ballade en 12/8.",
-			"lecons": [],
-			"bientot": true
+			"resume": "Trois notes par temps : le triolet, la ballade ternaire, puis le shuffle et ses breaks.",
+			"lecons": [
+				{
+					"id": "e5l1",
+					"titre": "Le triolet",
+					"theorie": [
+						"point"
+					],
+					"texte": [
+						"Jusqu'ici, chaque temps se coupait en deux (les croches) ou en quatre (les doubles croches). Le triolet le coupe en trois parts égales : trois notes par clic.",
+						"Dis « tri-o-let » à voix haute, le « tri » pile sur le clic. Les trois syllabes ont la même durée : le piège est de presser les deux premières et d'attendre le clic suivant.",
+						"En mains alternées, le temps suivant commence de l'autre main : droite sur 1 et 3, gauche sur 2 et 4. Laisse faire, ne recale pas."
+					],
+					"exercices": [
+						{
+							"id": "e5l1a",
+							"titre": "Trois coups par temps",
+							"consigne": "Objectif : trois notes égales par clic, mains alternées. La main qui tombe sur le clic change à chaque temps.",
+							"pas": 3,
+							"mesures": 1,
+							"voix": {
+								"sn": "xxxxxxxxxxxx"
+							},
+							"mains": "DGDGDGDGDGDG",
+							"tempo": [
+								50,
+								80,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e5l1b",
+							"titre": "Noires puis triolets",
+							"consigne": "Objectif : garder le même tempo en changeant de débit. Une mesure de noires, une mesure de triolets.",
+							"pas": 3,
+							"mesures": 2,
+							"voix": {
+								"sn": "x..x..x..x..xxxxxxxxxxxx"
+							},
+							"mains": "D..G..D..G..DGDGDGDGDGDG",
+							"tempo": [
+								50,
+								80,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e5l1c",
+							"titre": "Triolets sur les fûts",
+							"consigne": "Objectif : un temps par fût, sans trou entre deux fûts. Caisse claire, tom 1, tom 2, tom basse.",
+							"pas": 3,
+							"mesures": 1,
+							"voix": {
+								"sn": "xxx.........",
+								"t1": "...xxx......",
+								"t2": "......xxx...",
+								"t3": ".........xxx"
+							},
+							"mains": "DGDGDGDGDGDG",
+							"tempo": [
+								50,
+								75,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						}
+					]
+				},
+				{
+					"id": "e5l2",
+					"titre": "La ballade en triolets",
+					"texte": [
+						"Beaucoup de ballades, de blues lents et de slows se jouent ainsi : la main droite joue tous les triolets à la charleston, la caisse claire reste sur 2 et 4, la grosse caisse sur 1 et 3.",
+						"Le mouvement de la main droite est continu, comme une roue qui tourne. La caisse claire et la grosse caisse tombent toujours avec le « tri », jamais entre deux coups de charleston."
+					],
+					"exercices": [
+						{
+							"id": "e5l2a",
+							"titre": "La charleston en triolets",
+							"consigne": "Objectif : douze coups réguliers par mesure, main droite seule.",
+							"pas": 3,
+							"mesures": 1,
+							"voix": {
+								"hh": "xxxxxxxxxxxx"
+							},
+							"mains": "",
+							"tempo": [
+								50,
+								80,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e5l2b",
+							"titre": "Avec la caisse claire",
+							"consigne": "Objectif : la main gauche sur 2 et 4, sans que la droite ralentisse.",
+							"pas": 3,
+							"mesures": 1,
+							"voix": {
+								"hh": "xxxxxxxxxxxx",
+								"sn": "...x.....x.."
+							},
+							"mains": "",
+							"tempo": [
+								50,
+								80,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e5l2c",
+							"titre": "La ballade complète",
+							"consigne": "Objectif : le groove entier. Grosse caisse sur 1 et 3, caisse claire sur 2 et 4.",
+							"pas": 3,
+							"mesures": 1,
+							"voix": {
+								"hh": "xxxxxxxxxxxx",
+								"sn": "...x.....x..",
+								"bd": "x.....x....."
+							},
+							"mains": "",
+							"tempo": [
+								50,
+								80,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						}
+					],
+					"theorie": []
+				},
+				{
+					"id": "e5l3",
+					"titre": "Le shuffle",
+					"texte": [
+						"Le shuffle, c'est le triolet dont on retire la note du milieu : on joue « tri » et « let », on laisse passer le « o ». Il reste un rythme sautillant, long-court, long-court. C'est le moteur du blues, du boogie et d'une bonne partie du rock.",
+						"Ne le transforme pas en croches égales : le deuxième coup arrive tard, juste avant le clic suivant. Si tu hésites, rejoue les triolets complets, puis retire la note du milieu sans changer le geste."
+					],
+					"exercices": [
+						{
+							"id": "e5l3a",
+							"titre": "Le rythme du shuffle",
+							"consigne": "Objectif : long-court, long-court à la charleston. La note du milieu se joue en l'air.",
+							"pas": 3,
+							"mesures": 1,
+							"voix": {
+								"hh": "x.xx.xx.xx.x"
+							},
+							"mains": "",
+							"tempo": [
+								50,
+								80,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e5l3b",
+							"titre": "Shuffle et caisse claire",
+							"consigne": "Objectif : la caisse claire sur 2 et 4, posée avec le coup long.",
+							"pas": 3,
+							"mesures": 1,
+							"voix": {
+								"hh": "x.xx.xx.xx.x",
+								"sn": "...x.....x.."
+							},
+							"mains": "",
+							"tempo": [
+								50,
+								80,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e5l3c",
+							"titre": "Le shuffle complet",
+							"consigne": "Objectif : le groove entier, grosse caisse sur 1 et 3.",
+							"pas": 3,
+							"mesures": 1,
+							"voix": {
+								"hh": "x.xx.xx.xx.x",
+								"sn": "...x.....x..",
+								"bd": "x.....x....."
+							},
+							"mains": "",
+							"tempo": [
+								50,
+								80,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e5l3d",
+							"titre": "La grosse caisse qui rebondit",
+							"consigne": "Objectif : un coup de grosse caisse en plus, sur le coup court juste avant le 3. Il tombe avec la charleston.",
+							"pas": 3,
+							"mesures": 1,
+							"voix": {
+								"hh": "x.xx.xx.xx.x",
+								"sn": "...x.....x..",
+								"bd": "x....xx....."
+							},
+							"mains": "",
+							"tempo": [
+								50,
+								75,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						}
+					],
+					"theorie": []
+				},
+				{
+					"id": "e5l4",
+					"titre": "Breaks en triolets",
+					"texte": [
+						"Dans un morceau ternaire, les breaks se jouent en triolets : trois coups par temps, mains alternées. Le groove ne change pas de tempo, ce sont les mains qui remplissent le temps.",
+						"L'entrée du break tombe sur le clic, à la main droite. À la sortie, la crash sur le 1 se joue de la main droite avec la grosse caisse."
+					],
+					"exercices": [
+						{
+							"id": "e5l4a",
+							"titre": "Deux temps de triolets",
+							"consigne": "Objectif : une mesure de shuffle, puis deux temps de groove et deux temps de triolets à la caisse claire.",
+							"pas": 3,
+							"mesures": 2,
+							"voix": {
+								"cr": "x.......................",
+								"hh": "..xx.xx.xx.xx.xx.x......",
+								"sn": "...x.....x.....x..xxxxxx",
+								"bd": "x.....x.....x..........."
+							},
+							"mains": "..................DGDGDG",
+							"tempo": [
+								50,
+								75,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e5l4b",
+							"titre": "La descente en triolets",
+							"consigne": "Objectif : une mesure entière de break, trois coups par fût, de la caisse claire au tom basse.",
+							"pas": 3,
+							"mesures": 2,
+							"voix": {
+								"cr": "x.......................",
+								"hh": "..xx.xx.xx.x............",
+								"sn": "...x.....x..xxx.........",
+								"t1": "...............xxx......",
+								"t2": "..................xxx...",
+								"t3": ".....................xxx",
+								"bd": "x.....x................."
+							},
+							"mains": "............DGDGDGDGDGDG",
+							"tempo": [
+								50,
+								75,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						}
+					],
+					"theorie": []
+				}
+			],
+			"revision": {
+				"morceau": "Shuffle de la gare",
+				"difficulte": "moyen"
+			},
+			"atelier": {
+				"vue": "grooves",
+				"titre": "Les grooves ternaires",
+				"detail": "Atelier Grooves, style Shuffle et triolets"
+			}
 		},
 		{
 			"id": "e6",
 			"titre": "Nuances et indépendance",
-			"resume": "Accents, notes fantômes, charleston au pied, ride et pied gauche, grosse caisse syncopée.",
-			"lecons": [],
-			"bientot": true
+			"resume": "Jouer fort et doux dans la même mesure, puis libérer le pied gauche et la grosse caisse.",
+			"lecons": [
+				{
+					"id": "e6l1",
+					"titre": "L'accent",
+					"texte": [
+						"Un accent est un coup plus fort que ses voisins, noté par un chevron au-dessus de la note. Ce n'est pas la force du bras qui le fait, c'est la hauteur : la baguette part de haut pour l'accent, de tout près de la peau pour les autres coups.",
+						"Le plus difficile n'est pas de jouer fort, c'est de jouer doux juste après. Après l'accent, retiens la baguette près de la peau au lieu de la laisser remonter.",
+						"À la batterie, l'appli écoute la force de chaque coup : les accents doivent sonner nettement plus fort que les autres. Au clavier ou à l'écran, seule la mise en place est jugée."
+					],
+					"exercices": [
+						{
+							"id": "e6l1a",
+							"titre": "Accent sur le temps",
+							"consigne": "Objectif : la main droite haute sur chaque clic, la gauche basse entre les clics.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"sn": "axaxaxax"
+							},
+							"mains": "DGDGDGDG",
+							"tempo": [
+								60,
+								90,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40,
+							"nuances": true
+						},
+						{
+							"id": "e6l1b",
+							"titre": "Accent entre les temps",
+							"consigne": "Objectif : l'inverse. La gauche accentue les « et », la droite reste basse sur les clics.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"sn": "xaxaxaxa"
+							},
+							"mains": "DGDGDGDG",
+							"tempo": [
+								60,
+								90,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40,
+							"nuances": true
+						},
+						{
+							"id": "e6l1c",
+							"titre": "Un accent sur quatre",
+							"consigne": "Objectif : en doubles croches, un accent sur chaque temps et trois coups bas derrière.",
+							"pas": 4,
+							"mesures": 1,
+							"voix": {
+								"sn": "axxxaxxxaxxxaxxx"
+							},
+							"mains": "DGDGDGDGDGDGDGDG",
+							"tempo": [
+								50,
+								80,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40,
+							"nuances": true
+						},
+						{
+							"id": "e6l1d",
+							"titre": "L'accent qui se déplace",
+							"consigne": "Objectif : l'accent glisse d'une double croche à chaque temps : sur 1, puis « e », puis « et », puis « a ».",
+							"pas": 4,
+							"mesures": 1,
+							"voix": {
+								"sn": "axxxxaxxxxaxxxxa"
+							},
+							"mains": "DGDGDGDGDGDGDGDG",
+							"tempo": [
+								50,
+								75,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40,
+							"nuances": true
+						}
+					],
+					"theorie": []
+				},
+				{
+					"id": "e6l2",
+					"titre": "La note fantôme",
+					"texte": [
+						"La note fantôme est l'opposé de l'accent : un coup à peine audible, notée entre parenthèses. La baguette tombe de deux centimètres, presque sans geste. On la sent plus qu'on ne l'entend.",
+						"Elle sert à remplir un groove entre les coups forts de la caisse claire : c'est elle qui donne son balancement au funk. Tout l'effet tient au contraste, alors exagère l'écart."
+					],
+					"exercices": [
+						{
+							"id": "e6l2a",
+							"titre": "Fort, tout doux",
+							"consigne": "Objectif : le plus grand écart possible. La droite accentue, la gauche effleure la peau.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"sn": "agagagag"
+							},
+							"mains": "DGDGDGDG",
+							"tempo": [
+								60,
+								90,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40,
+							"nuances": true
+						},
+						{
+							"id": "e6l2b",
+							"titre": "Trois fantômes entre deux accents",
+							"consigne": "Objectif : en doubles croches, un accent sur chaque temps et trois notes fantômes derrière.",
+							"pas": 4,
+							"mesures": 1,
+							"voix": {
+								"sn": "agggagggagggaggg"
+							},
+							"mains": "DGDGDGDGDGDGDGDG",
+							"tempo": [
+								50,
+								75,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40,
+							"nuances": true
+						},
+						{
+							"id": "e6l2c",
+							"titre": "Une fantôme dans le groove",
+							"consigne": "Objectif : la caisse claire forte sur 2 et 4, et une note fantôme de la main gauche juste avant le 3.",
+							"pas": 4,
+							"mesures": 1,
+							"voix": {
+								"hh": "x.x.x.x.x.x.x.x.",
+								"sn": "....a..g....a...",
+								"bd": "x.......x......."
+							},
+							"mains": "",
+							"tempo": [
+								50,
+								80,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40,
+							"nuances": true
+						},
+						{
+							"id": "e6l2d",
+							"titre": "Deux fantômes dans le groove",
+							"consigne": "Objectif : une seconde note fantôme, juste après le 2. La main gauche enchaîne fort puis tout doux.",
+							"pas": 4,
+							"mesures": 1,
+							"voix": {
+								"hh": "x.x.x.x.x.x.x.x.",
+								"sn": "....ag.g....a...",
+								"bd": "x.......x......."
+							},
+							"mains": "",
+							"tempo": [
+								50,
+								75,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40,
+							"nuances": true
+						}
+					],
+					"theorie": []
+				},
+				{
+					"id": "e6l3",
+					"titre": "La charleston au pied",
+					"texte": [
+						"Le pied gauche ne sert pas qu'à tenir la charleston fermée : en le levant puis en le reposant d'un coup sec, les deux cymbales claquent l'une contre l'autre. Ce « tchik » se note par une croix sous la portée.",
+						"Il bat la mesure quand les mains sont occupées ailleurs, sur la ride ou les toms. Talon levé ou posé, peu importe : c'est la pointe du pied qui frappe."
+					],
+					"exercices": [
+						{
+							"id": "e6l3a",
+							"titre": "Le pied gauche sur chaque temps",
+							"consigne": "Objectif : quatre « tchik » par mesure, pile sur le clic, pied gauche seul.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"hp": "x.x.x.x."
+							},
+							"mains": "",
+							"tempo": [
+								60,
+								90,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e6l3b",
+							"titre": "Marcher",
+							"consigne": "Objectif : les deux pieds en alternance, comme une marche. Grosse caisse sur 1 et 3, pied gauche sur 2 et 4.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"bd": "x...x...",
+								"hp": "..x...x."
+							},
+							"mains": "",
+							"tempo": [
+								60,
+								90,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e6l3c",
+							"titre": "Les mains par-dessus",
+							"consigne": "Objectif : le pied gauche tient les quatre temps pendant que les mains jouent des croches à la caisse claire.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"sn": "xxxxxxxx",
+								"hp": "x.x.x.x."
+							},
+							"mains": "DGDGDGDG",
+							"tempo": [
+								60,
+								85,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						}
+					],
+					"theorie": []
+				},
+				{
+					"id": "e6l4",
+					"titre": "La ride et le pied gauche",
+					"texte": [
+						"Quand la main droite passe sur la ride, la charleston n'est plus jouée à la baguette : c'est le pied gauche qui la fait sonner. On le place le plus souvent sur 2 et 4, avec la caisse claire.",
+						"Quatre membres, quatre rôles. Monte le groove un membre après l'autre, et ne passe au suivant que lorsque le précédent tourne tout seul."
+					],
+					"exercices": [
+						{
+							"id": "e6l4a",
+							"titre": "Ride et pied gauche",
+							"consigne": "Objectif : des croches à la ride, le pied gauche sur 2 et 4.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"rd": "xxxxxxxx",
+								"hp": "..x...x."
+							},
+							"mains": "",
+							"tempo": [
+								60,
+								90,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e6l4b",
+							"titre": "Le groove à la ride",
+							"consigne": "Objectif : le premier groove, main droite sur la ride. Le pied gauche tombe avec la caisse claire.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"rd": "xxxxxxxx",
+								"sn": "..x...x.",
+								"bd": "x...x...",
+								"hp": "..x...x."
+							},
+							"mains": "",
+							"tempo": [
+								60,
+								90,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e6l4c",
+							"titre": "Le pied gauche sur les quatre temps",
+							"consigne": "Objectif : le même groove, le pied gauche battant chaque temps. Sur 1 et 3, les deux pieds tombent ensemble.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"rd": "xxxxxxxx",
+								"sn": "..x...x.",
+								"bd": "x...x...",
+								"hp": "x.x.x.x."
+							},
+							"mains": "",
+							"tempo": [
+								60,
+								85,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						}
+					],
+					"theorie": []
+				},
+				{
+					"id": "e6l5",
+					"titre": "La grosse caisse syncopée",
+					"texte": [
+						"Jusqu'ici, la grosse caisse tombait avec un coup de charleston. En doubles croches, elle peut se glisser entre deux coups de la main droite, sur un « e » ou un « a » : c'est une syncope.",
+						"Le pied doit alors jouer seul, sans l'appui de la main. Compte « 1 e et a » à voix haute et repère la syllabe où tombe le pied avant de jouer."
+					],
+					"exercices": [
+						{
+							"id": "e6l5a",
+							"titre": "Le pied sur le « a »",
+							"consigne": "Objectif : une grosse caisse seule sur le « a » du 2, juste avant le 3. La main droite ne bouge pas.",
+							"pas": 4,
+							"mesures": 1,
+							"voix": {
+								"hh": "x.x.x.x.x.x.x.x.",
+								"sn": "....x.......x...",
+								"bd": "x......xx......."
+							},
+							"mains": "",
+							"tempo": [
+								50,
+								80,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e6l5b",
+							"titre": "Le pied sur le « e »",
+							"consigne": "Objectif : une grosse caisse sur le « e » du 3, juste après le temps.",
+							"pas": 4,
+							"mesures": 1,
+							"voix": {
+								"hh": "x.x.x.x.x.x.x.x.",
+								"sn": "....x.......x...",
+								"bd": "x.......xx......"
+							},
+							"mains": "",
+							"tempo": [
+								50,
+								80,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40
+						},
+						{
+							"id": "e6l5c",
+							"titre": "Le groove syncopé",
+							"consigne": "Objectif : tout réunir. Grosse caisse syncopée, caisse claire forte sur 2 et 4, une note fantôme avant le 3.",
+							"pas": 4,
+							"mesures": 1,
+							"voix": {
+								"hh": "x.x.x.x.x.x.x.x.",
+								"sn": "....a..g....a...",
+								"bd": "x..x....x.x....."
+							},
+							"mains": "",
+							"tempo": [
+								50,
+								75,
+								5
+							],
+							"valider": 4,
+							"tolerance": 40,
+							"nuances": true
+						}
+					],
+					"theorie": []
+				}
+			],
+			"revision": {
+				"morceau": "Funk du dimanche",
+				"difficulte": "moyen"
+			},
+			"atelier": {
+				"vue": "grooves",
+				"titre": "Les grooves funk",
+				"detail": "Atelier Grooves, style Funk"
+			}
 		}
 	]
 }
