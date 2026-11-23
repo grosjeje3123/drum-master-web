@@ -10,3 +10,7 @@ Montserrat (police)
 
 Sons de batterie (kit Gretsch)
   Enregistrements de bigjoedrummer et shpira, licence CC0, voir sons/CREDITS.txt
+
+Scène de Drum Hero (hero/ : décor, batteur, public)
+Illustrations générées avec ChatGPT (OpenAI) à la demande de l'auteur de Drum Master, puis
+retouchées pour le jeu (détourage, recadrage, version « 16 bits »).
