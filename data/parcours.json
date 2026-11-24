@@ -298,7 +298,8 @@
 			"atelier": {
 				"vue": "baguettes",
 				"titre": "Plus de doigtés",
-				"detail": "En pratique libre : Stick control"
+				"detail": "En pratique libre : Stick control, à la première ligne à valider",
+				"cible": "suite=1"
 			}
 		},
 		{
@@ -723,8 +724,9 @@
 			},
 			"atelier": {
 				"vue": "grooves",
-				"titre": "D'autres grooves",
-				"detail": "En pratique libre : Grooves"
+				"titre": "D'autres rythmes rock",
+				"detail": "En pratique libre : Grooves, style Rock",
+				"cible": "style=Rock"
 			}
 		},
 		{
@@ -977,7 +979,8 @@
 			"atelier": {
 				"vue": "grooves",
 				"titre": "Enchaîner un rythme et un break",
-				"detail": "En pratique libre : Grooves, « 3 mesures + break »"
+				"detail": "En pratique libre : Grooves, style Rock, en phrase",
+				"cible": "style=Rock&forme=phrase"
 			}
 		},
 		{
@@ -1321,7 +1324,8 @@
 			"atelier": {
 				"vue": "baguettes",
 				"titre": "Les doigtés en doubles croches",
-				"detail": "En pratique libre : Stick control"
+				"detail": "En pratique libre : Stick control, en doubles croches",
+				"cible": "sub=16&suite=1"
 			}
 		},
 		{
@@ -1620,7 +1624,8 @@
 			"atelier": {
 				"vue": "grooves",
 				"titre": "Les grooves ternaires",
-				"detail": "En pratique libre : Grooves, style Shuffle et triolets"
+				"detail": "En pratique libre : Grooves, style Shuffle et triolets",
+				"cible": "style=Shuffle+et+triolets"
 			}
 		},
 		{
@@ -2026,7 +2031,8 @@
 			"atelier": {
 				"vue": "grooves",
 				"titre": "Les grooves funk",
-				"detail": "En pratique libre : Grooves, style Funk"
+				"detail": "En pratique libre : Grooves, style Funk",
+				"cible": "style=Funk"
 			}
 		}
 	]
