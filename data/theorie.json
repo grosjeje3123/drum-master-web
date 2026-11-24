@@ -92,7 +92,7 @@
 					"points": [
 						"Caisse claire : entre les genoux, à peu près à hauteur de la ceinture. L'avant-bras est presque horizontal quand la baguette touche la peau.",
 						"Pédales : là où les pieds se posent d'eux-mêmes, jambes ouvertes sans effort.",
-						"Toms et cymbales : atteints en pivotant le buste, sans tendre le bras ni se pencher."
+						"Toms et cymbales : atteints en tournant un peu le buste, sans tendre le bras, se pencher ni bouger sur le siège."
 					]
 				},
 				{
@@ -116,7 +116,8 @@
 						"Coudes près du corps, sans les coller.",
 						"Baguettes tenues au pivot, doigts souples.",
 						"Chaque élément atteint sans effort.",
-						"Protections auditives sur une batterie acoustique."
+						"Protections auditives sur une batterie acoustique ; au casque, un volume raisonnable.",
+						"Des pauses régulières, et on s'arrête dès que quelque chose fait mal."
 					]
 				}
 			]
@@ -139,7 +140,7 @@
 					"figure": "chiffrage",
 					"mise_en_page": "pile",
 					"texte": [
-						"Au début de la partition, deux chiffres empilés annoncent la mesure. Celui du haut dit combien il y a de temps dans chaque mesure. Celui du bas dit quelle note vaut un temps.",
+						"Au début de la partition, deux chiffres empilés annoncent la mesure. Dans les mesures de cette méthode, celui du haut dit combien il y a de temps dans chaque mesure, et celui du bas quelle note vaut un temps.",
 						"Le chiffre du bas compte en morceaux de ronde : 4 veut dire le quart de la ronde, c'est-à-dire la noire. Un 2 désignerait la blanche, un 8 la croche."
 					],
 					"points": [
@@ -148,7 +149,7 @@
 						"Le chiffrage ne donne pas la vitesse, c'est le tempo qui la donne. À 60 bpm, un temps dure une seconde et la mesure quatre secondes ; à 120 bpm, deux fois moins."
 					],
 					"apres": [
-						"On croise aussi le 3/4 de la valse, qui se compte « 1, 2, 3 », et plus loin dans la méthode le 12/8. Le 4/4 s'écrit parfois avec un grand C."
+						"On croise aussi le 3/4 de la valse, qui se compte « 1, 2, 3 ». Le 4/4 s'écrit parfois avec un grand C."
 					]
 				},
 				{

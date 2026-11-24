@@ -49,13 +49,14 @@
 		{
 			"id": "frappe",
 			"titre": "La frappe",
-			"resume": "Le stick control à la caisse claire : des coups réguliers et deux mains qui sonnent pareil.",
+			"resume": "Le stick control à la caisse claire : des coups réguliers et deux mains égales. Puis un premier rythme, pour jouer tout de suite.",
 			"lecons": [
 				{
 					"id": "f1",
 					"titre": "Un coup par clic",
 					"texte": [
-						"Le stick control, c'est le travail des mains seules, sur la caisse claire ou un pad, pour que chaque coup sonne comme le précédent. Les lettres au-dessus de la portée donnent la main : D pour la droite, G pour la gauche.",
+						"Le stick control, c'est le travail des mains seules, sur la caisse claire ou un pad : des coups réguliers, et deux mains aussi sûres l'une que l'autre. Les lettres au-dessus de la portée donnent la main : D pour la droite, G pour la gauche.",
+						"Pour lire la portée, deux repères suffisent ici : chaque note est un coup, et les chiffres en dessous sont les temps, à compter à voix haute, « 1, 2, 3, 4 ». La lecture est expliquée en détail à l'étape 3.",
 						"Chaque coup est un lancer : la baguette part du poignet, frappe le centre de la peau et remonte d'elle-même. Garde la prise au pivot et les doigts souples.",
 						"Pour commencer, un coup sur chaque clic du métronome."
 					],
@@ -76,7 +77,7 @@
 								4
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 60
 						},
 						{
 							"id": "f1b",
@@ -94,7 +95,7 @@
 								4
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 60
 						},
 						{
 							"id": "f1c",
@@ -112,7 +113,7 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 60
 						}
 					],
 					"theorie": []
@@ -141,7 +142,7 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 60
 						},
 						{
 							"id": "f2b",
@@ -159,7 +160,7 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 60
 						}
 					],
 					"theorie": []
@@ -169,7 +170,7 @@
 					"titre": "Le coup double",
 					"texte": [
 						"Deux coups de la même main, puis deux de l'autre. Le piège : le second coup, plus faible que le premier.",
-						"À tempo lent, ce sont deux vrais lancers du poignet. Le rebond viendra plus tard, avec la vitesse."
+						"À tempo lent, ce sont deux vrais lancers du poignet, et la baguette remonte d'elle-même après chaque coup. Plus vite, on se servira de ce rebond pour enchaîner les deux coups d'un seul geste."
 					],
 					"exercices": [
 						{
@@ -188,7 +189,7 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 60
 						},
 						{
 							"id": "f3b",
@@ -206,7 +207,7 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 60
 						},
 						{
 							"id": "f3c",
@@ -224,7 +225,7 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 60
 						}
 					],
 					"theorie": []
@@ -253,7 +254,7 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 60
 						},
 						{
 							"id": "f4b",
@@ -271,7 +272,7 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 60
 						},
 						{
 							"id": "f4c",
@@ -289,7 +290,76 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 60
+						}
+					],
+					"theorie": []
+				},
+				{
+					"id": "f5",
+					"titre": "Un premier rythme",
+					"texte": [
+						"Assez de caisse claire seule : voici déjà un vrai rythme de batterie, le plus simple qui soit. Tu l'étudieras en détail à l'étape 4 ; ici, le but est de jouer.",
+						"Trois rôles. Le pied droit joue la grosse caisse sur les temps 1 et 3. La main droite joue la charleston sur chaque temps, pied gauche appuyé sur la pédale pour la garder fermée. La main gauche joue la caisse claire sur les temps 2 et 4.",
+						"Monte le rythme un membre après l'autre, sans te presser : le pied seul, puis le pied et la main droite, puis les trois."
+					],
+					"exercices": [
+						{
+							"id": "f5a",
+							"titre": "La grosse caisse seule",
+							"consigne": "Pied droit seul : un coup sur chaque temps. La batte repart de la peau après le coup.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"bd": "x.x.x.x."
+							},
+							"mains": "",
+							"tempo": [
+								60,
+								80,
+								5
+							],
+							"valider": 4,
+							"tolerance": 60
+						},
+						{
+							"id": "f5b",
+							"titre": "Grosse caisse et charleston",
+							"consigne": "La main droite joue la charleston sur chaque temps ; le pied droit ne joue plus que sur 1 et 3.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"hh": "x.x.x.x.",
+								"bd": "x...x..."
+							},
+							"mains": "",
+							"tempo": [
+								60,
+								80,
+								5
+							],
+							"valider": 4,
+							"tolerance": 60
+						},
+						{
+							"id": "f5c",
+							"titre": "Le premier rythme, en noires",
+							"consigne": "On ajoute la caisse claire, main gauche, sur 2 et 4 : « boum, tchak, boum, tchak ».",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"hh": "x.x.x.x.",
+								"sn": "..x...x.",
+								"bd": "x...x..."
+							},
+							"mains": "",
+							"tempo": [
+								60,
+								80,
+								5
+							],
+							"valider": 4,
+							"tolerance": 60
 						}
 					],
 					"theorie": []
@@ -336,7 +406,7 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 60
 						}
 					]
 				},
@@ -368,7 +438,7 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 60
 						},
 						{
 							"id": "e1l2d",
@@ -386,7 +456,7 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 60
 						},
 						{
 							"id": "e1l2e",
@@ -404,7 +474,7 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 60
 						}
 					]
 				},
@@ -435,7 +505,7 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 60
 						},
 						{
 							"id": "e1l3b",
@@ -453,7 +523,7 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 60
 						},
 						{
 							"id": "e1l3c",
@@ -471,7 +541,7 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 60
 						}
 					]
 				}
@@ -511,7 +581,7 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 50
 						},
 						{
 							"id": "e2l1b",
@@ -529,7 +599,7 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 50
 						}
 					],
 					"theorie": []
@@ -538,7 +608,7 @@
 					"id": "e2l2",
 					"titre": "Ajouter la caisse claire",
 					"texte": [
-						"La caisse claire, jouée main gauche, tombe sur les temps 2 et 4. C'est le « contretemps » qui fait balancer presque toute la musique actuelle.",
+						"La caisse claire, jouée main gauche, tombe sur les temps 2 et 4, les temps faibles de la mesure. Ce coup marqué sur 2 et 4 (les batteurs disent le « backbeat ») fait balancer presque toute la musique actuelle.",
 						"Sur 2 et 4, les deux mains frappent exactement ensemble : charleston et caisse claire ne doivent faire qu'un seul son."
 					],
 					"exercices": [
@@ -559,7 +629,7 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 50
 						}
 					],
 					"theorie": []
@@ -569,7 +639,7 @@
 					"titre": "Ajouter la grosse caisse",
 					"texte": [
 						"Le pied droit joue la grosse caisse sur les temps 1 et 3. Talon levé ou posé, l'essentiel est que la batte reparte de la peau après le coup.",
-						"Travaille d'abord la grosse caisse avec la charleston seule. Quand c'est stable, ajoute la caisse claire : c'est ton premier groove complet."
+						"Tu connais déjà ce rythme en noires. Ici la charleston passe en croches : travaille d'abord la grosse caisse avec la charleston seule, puis ajoute la caisse claire. C'est le groove de base du rock."
 					],
 					"exercices": [
 						{
@@ -589,11 +659,11 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 50
 						},
 						{
 							"id": "e2l3b",
-							"titre": "Le premier groove",
+							"titre": "Le premier groove en croches",
 							"consigne": "Charleston en croches, grosse caisse sur 1 et 3, caisse claire sur 2 et 4.",
 							"pas": 2,
 							"mesures": 1,
@@ -609,7 +679,7 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 50
 						}
 					],
 					"theorie": []
@@ -640,7 +710,7 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 50
 						},
 						{
 							"id": "e2l4b",
@@ -660,7 +730,7 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 50
 						},
 						{
 							"id": "e2l4c",
@@ -680,7 +750,7 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 50
 						}
 					],
 					"theorie": []
@@ -712,7 +782,75 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 50
+						}
+					],
+					"theorie": []
+				},
+				{
+					"id": "e2l6",
+					"titre": "La charleston ouverte",
+					"texte": [
+						"En relâchant un peu le pied gauche, les deux cymbales de la charleston s'écartent : frappée à ce moment-là, elle sonne longtemps, « tchiii ». Sur la partition, la note est surmontée d'un petit rond.",
+						"Tout est dans le pied : il se relâche juste avant le coup, et se referme sur le coup suivant, d'un geste net. La main droite, elle, ne change rien à son mouvement.",
+						"À la batterie, l'appli vérifie que la note est bien jouée ouverte, puis refermée. Au clavier, la charleston ouverte est sur la touche N."
+					],
+					"exercices": [
+						{
+							"id": "e2l6a",
+							"titre": "Ouvrir sur le dernier « et »",
+							"consigne": "Croches à la charleston ; la dernière de la mesure est ouverte, et le pied referme sur le 1 suivant.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"hh": "xxxxxxxo"
+							},
+							"mains": "DDDDDDDD",
+							"tempo": [
+								60,
+								90,
+								5
+							],
+							"valider": 4,
+							"tolerance": 50
+						},
+						{
+							"id": "e2l6b",
+							"titre": "Ouvrir deux fois par mesure",
+							"consigne": "Charleston ouverte sur le « et » du 2 et le « et » du 4, refermée sur le temps qui suit.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"hh": "xxxoxxxo"
+							},
+							"mains": "DDDDDDDD",
+							"tempo": [
+								60,
+								90,
+								5
+							],
+							"valider": 4,
+							"tolerance": 50
+						},
+						{
+							"id": "e2l6c",
+							"titre": "Dans le groove",
+							"consigne": "Le groove en croches, avec la charleston ouverte sur le dernier « et » : le pied gauche referme pendant que le pied droit joue le 1.",
+							"pas": 2,
+							"mesures": 1,
+							"voix": {
+								"hh": "xxxxxxxo",
+								"sn": "..x...x.",
+								"bd": "x...x..."
+							},
+							"mains": "",
+							"tempo": [
+								60,
+								90,
+								5
+							],
+							"valider": 4,
+							"tolerance": 50
 						}
 					],
 					"theorie": []
@@ -736,17 +874,38 @@
 			"lecons": [
 				{
 					"id": "e3l1",
-					"titre": "Le break de deux temps",
+					"titre": "Le premier break",
 					"texte": [
-						"Un break (ou fill) remplace la fin d'une mesure pour annoncer la suite : un refrain, un changement, une reprise. Le groove s'arrête, les mains jouent une petite phrase, et tout le monde retombe ensemble sur le 1.",
-						"Premier break : quatre croches à la caisse claire sur les temps 3 et 4, comptées « 3 et 4 et », mains alternées en partant de la droite. La main droite quitte la charleston après le « 2 et ».",
+						"Un break (ou fill) est une petite phrase des mains qui annonce la suite : un refrain, un changement, une reprise. Le plus souvent il remplace la fin d'une mesure, parfois une mesure entière. Le groove s'arrête, les mains jouent, et tout le monde retombe ensemble sur le 1.",
+						"On commence par le plus court : deux croches à la caisse claire sur le temps 4, comptées « 4 et », droite puis gauche. Ensuite seulement, le break de deux temps : quatre croches sur 3 et 4, comptées « 3 et 4 et ».",
 						"La règle d'or : le tempo ne bouge pas. Un break joué trop vite, c'est le défaut le plus courant. Continue de compter à voix haute pendant le break."
 					],
 					"exercices": [
 						{
+							"id": "e3l1c",
+							"titre": "Le break court",
+							"consigne": "Objectif : un break d'un seul temps. Deux croches à la caisse claire sur « 4 et », le groove continue jusque-là.",
+							"pas": 2,
+							"mesures": 2,
+							"voix": {
+								"cr": "x...............",
+								"hh": ".xxxxxxxxxxxxx..",
+								"sn": "..x...x...x...xx",
+								"bd": "x...x...x...x..."
+							},
+							"mains": "..............DG",
+							"tempo": [
+								60,
+								90,
+								5
+							],
+							"valider": 4,
+							"tolerance": 50
+						},
+						{
 							"id": "e3l1a",
 							"titre": "Quatre croches à la caisse claire",
-							"consigne": "Objectif : quitter le groove et y revenir sans décaler le temps. Une mesure de groove, puis le break sur 3 et 4.",
+							"consigne": "Objectif : quitter le groove plus tôt et y revenir sans décaler le temps. Une mesure de groove, puis le break sur 3 et 4. La main droite quitte la charleston après le « 2 et ».",
 							"pas": 2,
 							"mesures": 2,
 							"voix": {
@@ -761,7 +920,7 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 50
 						},
 						{
 							"id": "e3l1b",
@@ -782,28 +941,7 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
-						},
-						{
-							"id": "e3l1c",
-							"titre": "Le break court",
-							"consigne": "Objectif : un break d'un seul temps. Deux croches à la caisse claire sur « 4 et », le groove continue jusque-là.",
-							"pas": 2,
-							"mesures": 2,
-							"voix": {
-								"cr": "x...............",
-								"hh": ".xxxxxxxxxxxxx..",
-								"sn": "..x...x...x...xx",
-								"bd": "x...x...x...x..."
-							},
-							"mains": "..............DG",
-							"tempo": [
-								60,
-								90,
-								5
-							],
-							"valider": 4,
-							"tolerance": 40
+							"tolerance": 50
 						}
 					],
 					"theorie": []
@@ -813,7 +951,7 @@
 					"titre": "Vers les toms",
 					"texte": [
 						"Les mêmes croches, mais on voyage : de la caisse claire vers le tom 1, le tom 2, puis le tom basse. On descend toujours de la gauche vers la droite du kit, de l'aigu vers le grave.",
-						"Ce sont les bras qui se déplacent, pas le buste. Regarde le fût suivant un coup à l'avance, et frappe le centre de chaque peau.",
+						"Ce sont surtout les bras qui se déplacent : le buste peut tourner un peu, sans que tu bouges sur le siège. Regarde le fût suivant un coup à l'avance, et frappe le centre de chaque peau.",
 						"Les toms résonnent plus longtemps que la caisse claire : ne te laisse pas ralentir par le son, fie-toi au clic."
 					],
 					"exercices": [
@@ -837,7 +975,7 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 50
 						},
 						{
 							"id": "e3l2b",
@@ -861,7 +999,7 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 50
 						},
 						{
 							"id": "e3l2c",
@@ -885,7 +1023,7 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 50
 						}
 					],
 					"theorie": []
@@ -918,7 +1056,7 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 50
 						},
 						{
 							"id": "e3l3b",
@@ -942,7 +1080,7 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 50
 						},
 						{
 							"id": "e3l3c",
@@ -966,7 +1104,7 @@
 								5
 							],
 							"valider": 4,
-							"tolerance": 40
+							"tolerance": 50
 						}
 					],
 					"theorie": []
@@ -996,7 +1134,7 @@
 					],
 					"texte": [
 						"Quatre coups par temps : ce sont les doubles croches. On les compte « 1 e et a, 2 e et a… ». Le chiffre tombe sur le clic, le « et » au milieu, comme pour les croches ; le « e » et le « a » se glissent entre les deux.",
-						"Mains alternées en partant de la droite : la droite joue les chiffres et les « et », la gauche joue les « e » et les « a ». Ce repère ne changera plus.",
+						"Mains alternées en partant de la droite : la droite joue les chiffres et les « et », la gauche joue les « e » et les « a ». Garde ce repère pour tous les coups alternés en doubles croches.",
 						"Le tempo de départ est lent exprès. Des doubles croches régulières à 50 valent mieux que des doubles bousculées à 80."
 					],
 					"exercices": [
@@ -1067,7 +1205,7 @@
 						{
 							"id": "e4l2a",
 							"titre": "Croche, deux doubles",
-							"consigne": "Objectif : le « galop ». On joue « 1 . et a » : le « e » reste en l'air.",
+							"consigne": "Objectif : la figure « croche, deux doubles », qu'on surnomme souvent le galop. On joue « 1 . et a » : le « e » reste en l'air.",
 							"pas": 4,
 							"mesures": 1,
 							"voix": {
@@ -1637,7 +1775,7 @@
 					"id": "e6l1",
 					"titre": "L'accent",
 					"texte": [
-						"Un accent est un coup plus fort que ses voisins, noté par un chevron au-dessus de la note. Ce n'est pas la force du bras qui le fait, c'est la hauteur : la baguette part de haut pour l'accent, de tout près de la peau pour les autres coups.",
+						"Un accent est un coup plus fort que ses voisins, noté par un chevron au-dessus de la note. Le repère le plus simple pour le doser, c'est la hauteur : la baguette part de haut pour l'accent, de tout près de la peau pour les autres coups.",
 						"Le plus difficile n'est pas de jouer fort, c'est de jouer doux juste après. Après l'accent, retiens la baguette près de la peau au lieu de la laisser remonter.",
 						"À la batterie, l'appli écoute la force de chaque coup : les accents doivent sonner nettement plus fort que les autres. Au clavier ou à l'écran, seule la mise en place est jugée."
 					],
@@ -1955,7 +2093,7 @@
 					"id": "e6l5",
 					"titre": "La grosse caisse syncopée",
 					"texte": [
-						"Jusqu'ici, la grosse caisse tombait avec un coup de charleston. En doubles croches, elle peut se glisser entre deux coups de la main droite, sur un « e » ou un « a » : c'est une syncope.",
+						"Jusqu'ici, la grosse caisse tombait avec un coup de charleston. En doubles croches, elle peut se glisser entre deux coups de la main droite, sur un « e » ou un « a ». L'appui se décale : on parle de grosse caisse syncopée.",
 						"Le pied doit alors jouer seul, sans l'appui de la main. Compte « 1 e et a » à voix haute et repère la syllabe où tombe le pied avant de jouer."
 					],
 					"exercices": [

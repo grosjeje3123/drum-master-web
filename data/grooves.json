@@ -35,7 +35,7 @@
    "tempo": 70,
    "pas": 2,
    "mesures": 1,
-   "texte": "Pour sentir les deux pieds et la main droite avant d'ajouter la caisse claire.",
+   "texte": "Le pied droit et la main droite seuls, avant d'ajouter la caisse claire. Le pied gauche garde la charleston fermée.",
    "voix": {
     "hh": "xxxxxxxx",
     "bd": "x...x..."
@@ -359,7 +359,7 @@
    "tempo": 75,
    "pas": 4,
    "mesures": 2,
-   "texte": "Une mesure et demie de groove, puis quatre doubles à la caisse claire. Crash au retour.",
+   "texte": "Une mesure et trois temps de groove, puis quatre doubles croches à la caisse claire sur le 4. Crash au retour.",
    "voix": {
     "cr": "x...............................",
     "hh": "..x.x.x.x.x.x.x.x.x.x.x.x.x.....",
