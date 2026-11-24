@@ -127,6 +127,146 @@
    }
   },
   {
+   "style": "Rock",
+   "nom": "Grosse caisse sur 4-et",
+   "niveau": 1,
+   "tempo": 70,
+   "pas": 4,
+   "mesures": 1,
+   "texte": "Le groove de base, avec une grosse caisse de plus sur le dernier « et » : elle relance la mesure.",
+   "voix": {
+    "hh": "x.x.x.x.x.x.x.x.",
+    "bd": "x.......x.....x.",
+    "sn": "....a.......a..."
+   }
+  },
+  {
+   "style": "Rock",
+   "nom": "Charleston en noires",
+   "niveau": 1,
+   "tempo": 70,
+   "pas": 4,
+   "mesures": 1,
+   "texte": "La charleston ne joue que les temps ; la grosse caisse se glisse entre eux, sur 1-et et 4-et.",
+   "voix": {
+    "hh": "x...x...x...x...",
+    "bd": "x.x.....x.....x.",
+    "sn": "....a.......a..."
+   }
+  },
+  {
+   "style": "Rock",
+   "nom": "Charleston entre les temps",
+   "niveau": 2,
+   "tempo": 65,
+   "pas": 4,
+   "mesures": 1,
+   "texte": "La charleston ne joue qu'entre les temps : ce sont la grosse caisse et la caisse claire qui les marquent. Compte bien.",
+   "voix": {
+    "bd": "x.......x.x.....",
+    "hh": "..x...x...x...x.",
+    "sn": "....a.......a..."
+   }
+  },
+  {
+   "style": "Rock",
+   "nom": "Charleston ouverte sur 2-et",
+   "niveau": 2,
+   "tempo": 65,
+   "pas": 4,
+   "mesures": 1,
+   "texte": "Ouvre la charleston sur 2-et, referme-la sur le 3 avec la grosse caisse.",
+   "voix": {
+    "hh": "x.x.x.o.x.x.x.x.",
+    "bd": "x.......x.....x.",
+    "sn": "....a.......a..."
+   }
+  },
+  {
+   "style": "Rock",
+   "nom": "Deux ouvertures",
+   "niveau": 3,
+   "tempo": 60,
+   "pas": 4,
+   "mesures": 1,
+   "texte": "La charleston s'ouvre sur 1-et et sur 3-et : le pied gauche se relève, puis referme sur le temps suivant.",
+   "voix": {
+    "hh": "x.o.x.x.x.o.x.x.",
+    "bd": "x..x....x.......",
+    "sn": "....a.......a..."
+   }
+  },
+  {
+   "style": "Grosse caisse mobile",
+   "nom": "Pied après la caisse claire",
+   "niveau": 2,
+   "tempo": 60,
+   "pas": 4,
+   "mesures": 1,
+   "texte": "Une grosse caisse une double croche après chaque caisse claire : les deux s'enchaînent sans se toucher.",
+   "voix": {
+    "hh": "x.x.x.x.x.x.x.x.",
+    "bd": "x....x..x....x..",
+    "sn": "....a.......a..."
+   }
+  },
+  {
+   "style": "Grosse caisse mobile",
+   "nom": "Deux coups collés sur le 1",
+   "niveau": 2,
+   "tempo": 60,
+   "pas": 4,
+   "mesures": 1,
+   "texte": "Deux grosses caisses collées sur le 1, puis le 3 et la dernière double du 3.",
+   "voix": {
+    "hh": "x.x.x.x.x.x.x.x.",
+    "bd": "xx......x..x....",
+    "sn": "....a.......a..."
+   }
+  },
+  {
+   "style": "Grosse caisse mobile",
+   "nom": "Pied avant la caisse claire",
+   "niveau": 3,
+   "tempo": 60,
+   "pas": 4,
+   "mesures": 1,
+   "texte": "La grosse caisse tombe sur la dernière double du 1 et du 3, juste avant la caisse claire : elle la prépare sans la bousculer.",
+   "voix": {
+    "hh": "x.x.x.x.x.x.x.x.",
+    "bd": "x..x....x..x....",
+    "sn": "....a.......a..."
+   }
+  },
+  {
+   "style": "Grosse caisse mobile",
+   "nom": "Pied en miroir",
+   "niveau": 3,
+   "tempo": 60,
+   "pas": 4,
+   "mesures": 1,
+   "texte": "Une grosse caisse sur la dernière double du 2 et du 4, collée au temps suivant.",
+   "voix": {
+    "hh": "x.x.x.x.x.x.x.x.",
+    "bd": "x......xx......x",
+    "sn": "....a.......a..."
+   }
+  },
+  {
+   "style": "Grosse caisse mobile",
+   "nom": "Pied sur deux mesures",
+   "niveau": 3,
+   "tempo": 60,
+   "pas": 4,
+   "mesures": 2,
+   "texte": "Deux mesures où la grosse caisse change de place presque à chaque temps. La charleston et la caisse claire, elles, ne bougent pas.",
+   "voix": {
+    "hh": "x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.",
+    "bd": "x.x....x.x....x.x..x..x.x..x....",
+    "sn": "....a.......a.......a.......a..."
+   }
+  },
+  {
    "style": "Doubles et pop",
    "nom": "Doubles à la charleston",
    "niveau": 2,
@@ -225,6 +365,20 @@
    }
   },
   {
+   "style": "Doubles et pop",
+   "nom": "Charleston aux deux mains",
+   "niveau": 4,
+   "tempo": 60,
+   "pas": 4,
+   "mesures": 1,
+   "texte": "Doubles croches à la charleston, mains alternées ; sur 2 et 4, la main droite part sur la caisse claire puis revient.",
+   "voix": {
+    "hh": "axxx.xxxaxxx.xxx",
+    "bd": "x.x.....x..x....",
+    "sn": "....a.......a..."
+   }
+  },
+  {
    "style": "Ride et pied gauche",
    "nom": "Groove à la ride",
    "niveau": 2,
@@ -266,6 +420,21 @@
     "sn": "..x...x.",
     "bd": "x...xx..",
     "hp": "x.x.x.x."
+   }
+  },
+  {
+   "style": "Ride et pied gauche",
+   "nom": "Ride et grosse caisse en doubles",
+   "niveau": 4,
+   "tempo": 60,
+   "pas": 4,
+   "mesures": 1,
+   "texte": "Ride en croches, pied gauche sur 2 et 4 avec la caisse claire, grosse caisse en doubles : les quatre membres jouent.",
+   "voix": {
+    "bd": "x..x....x.....x.",
+    "rd": "x.x.x.x.x.x.x.x.",
+    "hp": "....x.......x...",
+    "sn": "....a.......a..."
    }
   },
   {
@@ -311,6 +480,90 @@
    }
   },
   {
+   "style": "Syncopes et notes fantômes",
+   "nom": "Caisse claire avancée",
+   "niveau": 3,
+   "tempo": 60,
+   "pas": 4,
+   "mesures": 1,
+   "texte": "La deuxième caisse claire arrive une croche plus tôt, sur 3-et ; le 4 reste vide.",
+   "voix": {
+    "hh": "x.x.x.x.x.x.x.x.",
+    "bd": "x.......x.....x.",
+    "sn": "....a.....a....."
+   }
+  },
+  {
+   "style": "Syncopes et notes fantômes",
+   "nom": "Caisse claire retardée",
+   "niveau": 3,
+   "tempo": 60,
+   "pas": 4,
+   "mesures": 1,
+   "texte": "La deuxième caisse claire arrive une croche plus tard, sur 4-et.",
+   "voix": {
+    "hh": "x.x.x.x.x.x.x.x.",
+    "bd": "x.....x.x.......",
+    "sn": "....a.........a."
+   }
+  },
+  {
+   "style": "Syncopes et notes fantômes",
+   "nom": "Fantôme après la caisse claire",
+   "niveau": 3,
+   "tempo": 60,
+   "pas": 4,
+   "mesures": 1,
+   "texte": "Une note fantôme sur la dernière double du 2 et du 4, à peine audible, juste avant le temps suivant.",
+   "voix": {
+    "hh": "x.x.x.x.x.x.x.x.",
+    "bd": "x.......x.......",
+    "sn": "....a..g....a..g"
+   }
+  },
+  {
+   "style": "Syncopes et notes fantômes",
+   "nom": "Fantôme avant la caisse claire",
+   "niveau": 3,
+   "tempo": 60,
+   "pas": 4,
+   "mesures": 1,
+   "texte": "Une note fantôme juste avant chaque caisse claire, très légère : l'accent reste sur 2 et 4.",
+   "voix": {
+    "hh": "x.x.x.x.x.x.x.x.",
+    "bd": "x.x.....x.......",
+    "sn": "...ga......ga..."
+   }
+  },
+  {
+   "style": "Syncopes et notes fantômes",
+   "nom": "Fantômes déplacés",
+   "niveau": 3,
+   "tempo": 60,
+   "pas": 4,
+   "mesures": 1,
+   "texte": "Trois notes fantômes à des places différentes. Garde-les toutes très douces ; la charleston ne bouge pas.",
+   "voix": {
+    "hh": "x.x.x.x.x.x.x.x.",
+    "bd": "x.....x.x.....x.",
+    "sn": ".g..a....g..a..g"
+   }
+  },
+  {
+   "style": "Syncopes et notes fantômes",
+   "nom": "Syncopes sur deux mesures",
+   "niveau": 3,
+   "tempo": 60,
+   "pas": 4,
+   "mesures": 2,
+   "texte": "La caisse claire passe sur 2-et dans la première mesure, sur 4-et dans la seconde, avec quelques notes fantômes.",
+   "voix": {
+    "hh": "x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.x.",
+    "bd": "x......xx.......x.x.......x.....",
+    "sn": "...g..a.....a.......a......g..a."
+   }
+  },
+  {
    "style": "Shuffle et triolets",
    "nom": "Ballade en triolets",
    "niveau": 2,
@@ -350,6 +603,76 @@
     "rd": "x.xx.xx.xx.x",
     "sn": "...x.....x..",
     "bd": "x....xx....."
+   }
+  },
+  {
+   "style": "Shuffle et triolets",
+   "nom": "Shuffle, grosse caisse relancée",
+   "niveau": 3,
+   "tempo": 60,
+   "pas": 3,
+   "mesures": 1,
+   "texte": "Le shuffle à la charleston, avec une grosse caisse de plus sur la dernière note du triolet du 3.",
+   "voix": {
+    "hh": "x.xx.xx.xx.x",
+    "bd": "x.....x.x...",
+    "sn": "...a.....a.."
+   }
+  },
+  {
+   "style": "Shuffle et triolets",
+   "nom": "Shuffle, pied mobile",
+   "niveau": 3,
+   "tempo": 60,
+   "pas": 3,
+   "mesures": 1,
+   "texte": "La grosse caisse suit la charleston sur la dernière note du triolet du 1 et du 4.",
+   "voix": {
+    "hh": "x.xx.xx.xx.x",
+    "bd": "x.x...x....x",
+    "sn": "...a.....a.."
+   }
+  },
+  {
+   "style": "Shuffle et triolets",
+   "nom": "Shuffle et fantômes",
+   "niveau": 3,
+   "tempo": 60,
+   "pas": 3,
+   "mesures": 1,
+   "texte": "Une note fantôme sur la note du milieu du triolet, juste après la caisse claire : c'est elle qui fait rouler le shuffle.",
+   "voix": {
+    "hh": "x.xx.xx.xx.x",
+    "bd": "x.....x.....",
+    "sn": "...ag....ag."
+   }
+  },
+  {
+   "style": "Shuffle et triolets",
+   "nom": "Croche pointée et double",
+   "niveau": 3,
+   "tempo": 60,
+   "pas": 4,
+   "mesures": 1,
+   "texte": "Ce n'est pas un shuffle : une croche pointée puis une double, plus serré que le triolet. Écoute la différence.",
+   "voix": {
+    "hh": "x..xx..xx..xx..x",
+    "bd": "x......xx.......",
+    "sn": "....a.......a..."
+   }
+  },
+  {
+   "style": "Shuffle et triolets",
+   "nom": "Triolet de grosse caisse",
+   "niveau": 3,
+   "tempo": 60,
+   "pas": 3,
+   "mesures": 1,
+   "texte": "Trois grosses caisses en triolet sur le 1, la charleston en noires. Garde le pied souple.",
+   "voix": {
+    "hh": "x..x..x..x..",
+    "bd": "xxx...x.x...",
+    "sn": "...a.....a.."
    }
   },
   {
@@ -417,6 +740,73 @@
     "t2": "..............x.",
     "t3": "...............x",
     "bd": "x...x...x......."
+   }
+  },
+  {
+   "style": "Fills",
+   "nom": "Fill d'un temps sur les toms",
+   "niveau": 2,
+   "tempo": 60,
+   "pas": 4,
+   "mesures": 2,
+   "texte": "Une mesure et trois temps de groove, puis caisse claire, tom 1 et tom basse en doubles sur le 4.",
+   "voix": {
+    "hh": "x.x.x.x.x.x.x.x.x.x.x.x.x.x.....",
+    "bd": "x.x.....x.....x.x.......x.......",
+    "sn": "....a.......a.......a.......ax..",
+    "t1": "..............................x.",
+    "t3": "...............................x"
+   }
+  },
+  {
+   "style": "Fills",
+   "nom": "Descente sur deux temps",
+   "niveau": 2,
+   "tempo": 60,
+   "pas": 4,
+   "mesures": 2,
+   "texte": "Deux temps de doubles, deux coups par élément : caisse claire, tom 1, tom 2, tom basse.",
+   "voix": {
+    "hh": "x.x.x.x.x.x.x.x.x.x.x.x.........",
+    "bd": "x.x.....x.....x.x...............",
+    "sn": "....a.......a.......a...ax......",
+    "t1": "..........................xx....",
+    "t2": "............................xx..",
+    "t3": "..............................xx"
+   }
+  },
+  {
+   "style": "Fills",
+   "nom": "Remontée sur deux temps",
+   "niveau": 3,
+   "tempo": 60,
+   "pas": 4,
+   "mesures": 2,
+   "texte": "Le fill remonte : tom basse, tom 2, tom 1, puis caisse claire, deux coups chacun.",
+   "voix": {
+    "hh": "x.x.x.x.x.x.x.x.x.x.x.x.........",
+    "bd": "x.x.....x.....x.x...............",
+    "sn": "....a.......a.......a.........xx",
+    "t3": "........................ax......",
+    "t2": "..........................xx....",
+    "t1": "............................xx.."
+   }
+  },
+  {
+   "style": "Fills",
+   "nom": "Fill en croches sur une mesure",
+   "niveau": 3,
+   "tempo": 60,
+   "pas": 2,
+   "mesures": 2,
+   "texte": "Une mesure de groove, puis une mesure entière de fill en croches, deux coups par élément.",
+   "voix": {
+    "hh": "xxxxxxxx........",
+    "bd": "x...x...........",
+    "sn": "..a...a.ax......",
+    "t1": "..........xx....",
+    "t2": "............xx..",
+    "t3": "..............xx"
    }
   }
  ]
